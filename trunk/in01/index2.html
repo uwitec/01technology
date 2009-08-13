@@ -3,6 +3,8 @@
 
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<script src="js/jquery-1.3.2.min.js" type="text/javascript"></script>
+<script src="js/common.js" type="text/javascript"></script>
 <style type="text/css">
  body{
 	margin:0px;padding:0px; background-color:gray;
@@ -13,31 +15,32 @@
  ul, li{
 	margin:0px; padding:0px; list-style-type:none;
 }
-
+ img{ border:0px;}
  #page{
 	width:1024px; height:680px; background-color:#f2f2f2; margin: 0px auto;
 }
  #header{
-	height:70px;
+	height:97px;
 } 
  #top_head{
 	height:30px; text-align:right; margin-right: 70px;
 }
  #body{
-	height:453px; 
+	height:495px; 
 }
    #body_left{
-	width:725px; height:284px; background-image:url('images/body_left_1.gif');
+	width:50px; height:495px; 
 }
-   #body_right{
-	width:299px; height:284px; background-image:url('images/body_right_1.gif');
-}  
-   #body_down1{
-	width:725px; height:167px;
-}
-   #body_down2{
-	width:299px; height:167px;
-}
+   #body_1{ width: 50px; height: 238px;}
+   #body_bottom{ width:687px; height: 295px;}
+   #notices{width:236px; height:295px; float:left;}
+   #notices ul {height:28px; float:left;}
+   #body_rl{ width:50px; height:295px;}
+   #body_ld{ width: 50px; height: 189px;}
+   #tab_more{ border:0px solid ;}
+   .show_list {}
+   .hide_list {display:none;}
+   #body_down2{width:299px; height:167px;}
 
  #footer{
 	width:909px; height:103px; margin-left:58px;
@@ -53,49 +56,125 @@
 	 background:#FFF url('images/menu_up.gif') repeat-y; width:650px; float:left; height:30px;
 }
  #menu li{
-	float:left; width:100px; padding-top:6px; margin-left:40px; color:#FFF}
+	float:left; width:80px; padding-top:8px; margin-left:20px; color:#FFF; font-size: 13px;}
+	
+	#tab_more{ float: right; margin-top:20px;}
+	#tab_news{ float: left ; margin-left: 2px;}
+	
+	#callus{ height: 106px; width: 226px; float: left; margin-top: 142px; margin-left: 0px; background-image: url('images/callus.jpg'); }
+	#callus a { float: left ;  margin-left:60px; margin-top: 80px; }
 .left{
-	float: left;
+	float: left; 
 }
+.up{ float:none;}
+}
+.font14{ font-size:14px; color:#626262; font-family:宋体, Arial, Helvetica, sans-serif}
+.font12{font-size:12px; color:#48484a; font-family:宋体, Arial, Helvetica, sans-serif;}
+.ct{ float: left ; font-family: 宋体, Arial, Helvetica, sans-serif ; font-size: 12px; margin-left: 10px;}
+.l1{text-align:left; margin-left:20px; margin-top:15px;}
+.l2{ margin-top:10px;}
+.font12_1{font-size:12px; color:#48484a; font-family:宋体, Arial, Helvetica, sans-serif; margin-top: 0px; margin-left: 20px;}
+}
+
 </style>
+
 </head>
 
 <body>
  <div id="page">
   <div id="header">
-   <img src="" style="float:left;" alt="test" />
+   <img src="images/logo.gif" style="float:left;" alt="test" />
    <div>
-    <ul id="top_head">1232312333top</ul>
+    <ul id="top_head">
+		<li class="font12 l2">中文|ENGLSIH</li>
+	   </ul>
     <div id="menu">    
      <img src="images/menu_left.gif" class="left" alt="test2"/>
      <ul class="left">
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
+      <li >产品方案</li>
+      <li>体验中心</li>
+      <li>服务与支持</li>
+	  <li>新闻中心</li>
+	  <li>电子商城</li>
+	  <li>关于零壹科技</li>
      </ul>
      <img src="images/menu_right.gif"  class="left"/>
     </div>
    </div>
     
+    
   </div>
   <div id="body">
-	   <div id="body_left" class="left" >
-		   <object id="flash1" data="images/in01_flash_turn1.swf" style="width: 725px; height: 284px" type="application/x-shockwave-flash">
-			   <param name="movie" value="images/in01_flash_turn1.swf" />
-		   </object>
+	   <div id="body_left" class="left" style="background-image:url('images/body_9.gif')">
+		   <!--<ul>
+		   		<li id="body_1"></li>
+		   		<li><img src="images/body_1.gif" alt="body_1" /></li>
+		   	    <li><img src="images/body_2.gif " alt="b2" /></li>
+		   	    <li><img src="images/body_9.gif" alt="9" /></li>
+		   </ul>-->
 	   </div>
-	   <div id="body_right" class="left"></div>
-	   <div id="body_down1" class="left" ></div>
-	   <div id="body_down2" class="left" ></div>
+    <div id="body_bottom" class="left">
+      <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="687" height="295">
+        <param name="movie" value="ad1.swf" />
+        <param name="quality" value="high" />
+        <param name="wmode" value="opaque" />
+        <param name="swfversion" value="8.0.35.0" />
+        <!-- 此 param 标签提示使用 Flash Player 6.0 r65 和更高版本的用户下载最新版本的 Flash Player。如果您不想让用户看到该提示，请将其删除。 -->
+        <param name="expressinstall" value="Scripts/expressInstall.swf" />
+        <!-- 下一个对象标签用于非 IE 浏览器。所以使用 IECC 将其从 IE 隐藏。 -->
+        <!--[if !IE]>
+        <object type="application/x-shockwave-flash" data="ad1.swf" width="687" height="295">
+          <!--<![endif]-->
+          <param name="quality" value="high" />
+          <param name="wmode" value="opaque" />
+          <param name="swfversion" value="8.0.35.0" />
+          <param name="expressinstall" value="Scripts/expressInstall.swf" />
+          <!-- 浏览器将以下替代内容显示给使用 Flash Player 6.0 和更低版本的用户。 -->
+          <div>
+            <h4>此页面上的内容需要较新版本的 Adobe Flash Player。</h4>
+            <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获取 Adobe Flash Player" width="112" height="33" /></a></p>
+          </div>
+          <!--[if !IE]>-->
+        </object>
+        <!--<![endif]-->
+      </object>
+</div>
+	   <div id="notices" class="left">
+	   	 <ul>
+	   	 	<li id="tab_news"  class="left" onmousedown="showPic('gg','news');"><img src="images/gg_s.gif" alt="gg_s" /></li>
+	   	
+			<li id="tab_notices"  class="left" onmousedown="showPic('news','gg');"><img src="images/news.gif" alt="news" /></li>
+			
+				<li> <a href=""><img style=" margin-top: 15px;" alt="more" src="images/more.gif"/></a></li>
+		</ul>
+	     <div id="gg" class="hide_list">
+		  <ol class="ct"> 111111111</ol>
+		 </div>
+		 <div id="news" class="show_list">
+		  <ol class="ct"> 3333333333</ol>
+	     </div>
+	     <div></div>
+	     <div id="callus"><a id="tel">024-88532921</a></div>	 	 
+	   </div>
+	   <div id="body_rl" class="left" ></div>
+	   <!--<div id="body_ld" class="left" ></div>-->
+	   <div id="body_down1" class="left" ><img src="images/body_3.gif" alt="3" /></div>
+	   <div id="body_rd" class="left" ><img src="images/body_5.gif" alt="5" /></div>
   </div>
   <div id="footer">
   		<img src="images/footer_left.gif" class="left" />
           <ul class="left">
-          
+          	<li class="font12 l1"><a  class="font12" href="">联系我们</a> | <a  class="font12" href="">隐私保护</a> | <a  class="font12" href="">意见反馈</a> | <a  class="font12" href="">招贤纳士</a> | <a  class="font12" href="">网站导航</a></li>
+          	<li class="font12_1">版权所有©2009 零壹科技有限公司 Copyright©2009 www.in01.com.cn All Rights Reserved</li>
+          	<!--<li class="font12 l1 ">联系我们</li> |
+          	<li class="font12 l2 ">隐私保护</li> |-->
           </ul>
         <img src="images/footer_right.gif" class="left" />
   </div>
  </div>
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+</script>
 </body>
 
 </html>
