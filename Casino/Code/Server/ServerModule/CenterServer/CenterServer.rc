@@ -1,0 +1,459 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\CenterServer.rc2""  // 非 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""         // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\CenterServer.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CENTERSERVER_DIALOG DIALOGEX 0, 0, 268, 235
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_MINIMIZEBOX | 
+    WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "中心服务器"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    PUSHBUTTON      "启动服务",IDC_START_SERVICE,43,4,47,14
+    PUSHBUTTON      "停止服务",IDC_STOP_SERVICE,111,4,47,14,WS_DISABLED
+    PUSHBUTTON      "参数配置",IDC_INIT_SERVICE,43,21,47,14
+    PUSHBUTTON      "退出服务器",IDCANCEL,197,11,47,14
+    CONTROL         "",IDC_SERVICE_EVENT,"RichEdit20A",ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_NOHIDESEL | ES_READONLY | 
+                    ES_WANTRETURN | WS_BORDER | WS_VSCROLL | WS_TABSTOP,3,51,
+                    259,180,WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE
+    PUSHBUTTON      "系统配置",IDC_INIT_SYSTEM,111,21,47,14
+    LTEXT           "消息窗口",IDC_STATIC,25,41,33,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,61,44,201,1
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,1,44,17,1
+END
+
+IDD_SYSTEM_OPTION DIALOGEX 0, 0, 287, 193
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "中心服务器选项配置：（应用新的配置选项，必须重启服务才能生效）"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,64,171,47,15
+    PUSHBUTTON      "取消",IDCANCEL,175,171,47,15
+    EDITTEXT        IDC_LISTEN_PORT,65,16,74,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_MAX_CONNECT,65,32,74,12,ES_AUTOHSCROLL | ES_READONLY,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "监听端口：",IDC_STATIC,8,18,41,8
+    LTEXT           "连接容量：",IDC_STATIC,8,34,41,8
+    GROUPBOX        "网络配置：",IDC_STATIC,5,4,277,47
+    CONTROL         "",IDC_SERVER_DATABASE_IP,"SysIPAddress32",WS_TABSTOP,65,
+                    72,74,12,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_SERVER_DATABASE_PORT,65,88,74,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_SERVER_DATABASE_NAME,201,88,74,12,ES_AUTOHSCROLL | 
+                    ES_READONLY,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_SERVER_DATABASE_USER,66,105,74,12,ES_AUTOHSCROLL,
+                    WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_SERVER_DATABASE_PASS,201,105,74,12,ES_PASSWORD | 
+                    ES_AUTOHSCROLL,WS_EX_CLIENTEDGE
+    LTEXT           "数据库地址：",IDC_STATIC,8,74,49,8
+    LTEXT           "数据库用户：",IDC_STATIC,9,107,49,8
+    LTEXT           "数据库密码：",IDC_STATIC,148,108,49,8
+    LTEXT           "数据库名字：",IDC_STATIC,148,91,49,8
+    LTEXT           "数据库端口：",IDC_STATIC,8,92,49,8
+    GROUPBOX        "数据库配置：",IDC_STATIC,4,57,277,65
+    GROUPBOX        "安全配置：",IDC_STATIC,4,128,277,35
+    LTEXT           "启动服务密码：",IDC_STATIC,8,144,57,8
+    EDITTEXT        IDC_LOGONSERVERPASS,65,141,207,12,ES_PASSWORD | 
+                    ES_AUTOHSCROLL,WS_EX_CLIENTEDGE
+    LTEXT           "数据库通道：",IDC_STATIC,147,74,49,8
+    EDITTEXT        IDC_SERVER_DATABASE_PIPE,201,72,74,12,ES_AUTOHSCROLL,
+                    WS_EX_CLIENTEDGE
+END
+
+IDD_DIALOG_INITSYSTEM DIALOGEX 0, 0, 675, 457
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "系统配置"
+FONT 9, "宋体", 400, 0, 0x86
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,313,440,50,14
+    CONTROL         "",IDC_SERVER_LIST,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_SHOWSELALWAYS | TVS_TRACKSELECT | 
+                    WS_BORDER | WS_TABSTOP | 0x800,10,11,405,377,
+                    WS_EX_STATICEDGE
+    GROUPBOX        "游戏列表配置",IDC_STATIC,4,0,417,435
+    PUSHBUTTON      "新增游戏种类",IDC_ADD_TYPE,63,393,78,14
+    PUSHBUTTON      "新增游戏类型",IDC_ADD_KIND,152,393,78,14
+    PUSHBUTTON      "新增游戏服务",IDC_ADD_SERVER,241,393,78,14
+    PUSHBUTTON      "删除节点",IDC_DEL_NODE,63,415,78,14
+    PUSHBUTTON      "节点配置",IDC_OPTION_NODE,152,415,78,14
+    PUSHBUTTON      "刷新列表",IDC_REFRESH_NODE,241,415,78,14
+    GROUPBOX        "真人游戏桌列表",IDC_STATIC_VIDEOGAME,426,0,246,190
+    PUSHBUTTON      "新增桌",IDC_ADDVIDEOGAMETABLE,507,171,50,14
+    PUSHBUTTON      "刪除桌",IDC_DELVIDEOGAMETABLE,562,171,50,14
+    PUSHBUTTON      "配置桌",IDC_CONFIGVIDEOGAMETABLE,616,171,50,14
+    PUSHBUTTON      "生成游戏服务器脚本",IDC_GENGAMESERVICEPARAMFILE,330,415,
+                    78,14
+    GROUPBOX        "各项地址配置",IDC_STATIC,425,193,250,82
+    LTEXT           "游戏首页地址：",IDC_STATIC,433,209,57,8
+    EDITTEXT        IDC_MAINWEBPAGEADDR,490,207,177,12,ES_AUTOHSCROLL,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "现场视频地址：",IDC_STATIC,433,226,57,8
+    EDITTEXT        IDC_FIELDLIVEVIDEOADDR,490,224,177,12,ES_AUTOHSCROLL,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "视频录象地址：",IDC_STATIC,433,243,57,8
+    EDITTEXT        IDC_VIDEOTAPEADDR,490,241,177,12,ES_AUTOHSCROLL,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "保存",IDC_SAVEGAMEMAININFO,616,256,50,14
+    GROUPBOX        "公告",IDC_STATIC,425,276,249,179
+    LTEXT           "会员公告:",IDC_STATIC,433,286,37,8
+    EDITTEXT        IDC_EDIT_NOTIFY_GAME,433,296,234,52,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_WANTRETURN | WS_VSCROLL
+    PUSHBUTTON      "保存",IDC_SAVE_NOTIFY_GAME,616,351,50,14
+    LTEXT           "管理公告:",IDC_STATIC,433,369,37,8
+    EDITTEXT        IDC_EDIT_NOTIFY_MAN,433,380,234,52,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_WANTRETURN | WS_VSCROLL
+    PUSHBUTTON      "保存",IDC_SAVE_NOTIFY_MAN,616,436,50,14
+END
+
+IDD_GAMEKINDINFO DIALOGEX 0, 0, 249, 259
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "游戏类型"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,45,235,47,15
+    PUSHBUTTON      "取消",IDCANCEL,157,235,47,15
+    EDITTEXT        IDC_KINDNAME,110,15,117,12,ES_AUTOHSCROLL,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "名称：",IDC_STATIC,53,17,41,8
+    GROUPBOX        "基本配置：",IDC_STATIC,5,4,235,47
+    LTEXT           "排序：",IDC_STATIC,53,33,41,8
+    EDITTEXT        IDC_SORT_ID,110,31,74,12,ES_AUTOHSCROLL | ES_NUMBER,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "桌子数目：",IDC_STATIC,53,84,41,8
+    EDITTEXT        IDC_TABLECOUNT,110,81,74,12,ES_AUTOHSCROLL | ES_NUMBER,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "游戏底注：",IDC_STATIC,53,130,41,8
+    EDITTEXT        IDC_CELLSCORE,110,128,74,12,ES_AUTOHSCROLL | ES_NUMBER,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "抽水率：",IDC_STATIC,53,160,33,8
+    EDITTEXT        IDC_TAXRATE,110,158,74,12,ES_AUTOHSCROLL | ES_NUMBER,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "(千分比)",IDC_STATIC,186,160,33,8
+    LTEXT           "游戏类别：",IDC_STATIC,53,66,41,8
+    COMBOBOX        IDC_GAMEPROCESSTYPE,110,64,117,80,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "最大投注：",IDC_STATIC,53,115,41,8
+    EDITTEXT        IDC_HIGHSCORE,110,113,74,12,ES_AUTOHSCROLL | ES_NUMBER,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "入场卷：",IDC_STATIC,53,145,33,8
+    EDITTEXT        IDC_LESSSCORE,110,143,74,12,ES_AUTOHSCROLL | ES_NUMBER,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "最大人数：",IDC_STATIC,53,196,41,8
+    EDITTEXT        IDC_AIUSERCOUNT,109,192,74,12,ES_AUTOHSCROLL | ES_NUMBER,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "智商：",IDC_STATIC,53,210,25,8
+    GROUPBOX        "游戏配置：",IDC_STATIC,5,51,235,47
+    GROUPBOX        "投注配置：",IDC_STATIC,5,101,235,75
+    GROUPBOX        "智能机器人配置：",IDC_STATIC,5,180,235,49
+    CONTROL         "",IDC_AILEVEL,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    TBS_BOTH | TBS_NOTICKS | TBS_TOOLTIPS | WS_TABSTOP,105,
+                    210,124,13
+END
+
+IDD_GAMESERVERINFO DIALOGEX 0, 0, 231, 117
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "游戏服务站点"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,34,91,47,15
+    PUSHBUTTON      "取消",IDCANCEL,145,91,47,15
+    EDITTEXT        IDC_SERVERNAME,106,25,74,12,ES_AUTOHSCROLL,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "名称：",IDC_STATIC,50,27,25,8
+    GROUPBOX        "游戏服务器配置：",IDC_STATIC,5,4,221,82
+    LTEXT           "排序：",IDC_STATIC,50,43,25,8
+    EDITTEXT        IDC_SORT_ID,106,41,74,12,ES_AUTOHSCROLL | ES_NUMBER,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "最大人数：",IDC_STATIC,50,59,41,8
+    EDITTEXT        IDC_MAXUSERCOUNT,106,57,74,12,ES_AUTOHSCROLL | ES_NUMBER,
+                    WS_EX_CLIENTEDGE
+END
+
+IDD_VIDEOGAMETABLEINFO DIALOGEX 0, 0, 251, 159
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "视频游戏桌"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,47,136,47,15
+    PUSHBUTTON      "取消",IDCANCEL,158,136,47,15
+    EDITTEXT        IDC_TABLENUMBER,111,15,74,12,ES_AUTOHSCROLL | ES_NUMBER,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "台号码：",IDC_STATIC,54,17,33,8
+    GROUPBOX        "配置：",IDC_STATIC,5,4,240,125
+    LTEXT           "限红：",IDC_STATIC,54,69,25,8
+    EDITTEXT        IDC_MAXUSERREVENUESHARING,111,67,74,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER,WS_EX_CLIENTEDGE
+    CONTROL         "",IDC_SERVER_STATEKERNEL_IP,"SysIPAddress32",WS_TABSTOP,
+                    122,90,74,12,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_SERVER_STATEKERNEL_PORT,122,106,74,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER,WS_EX_CLIENTEDGE
+    LTEXT           "状态服务器地址：",IDC_STATIC,54,92,65,8
+    LTEXT           "状态服务器端口：",IDC_STATIC,54,109,65,8
+    LTEXT           "Bet下限：",IDC_STATIC,53,53,37,8
+    EDITTEXT        IDC_CELLSCORE,111,51,74,12,ES_AUTOHSCROLL | ES_NUMBER,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "Bet上限：",IDC_STATIC,53,38,37,8
+    EDITTEXT        IDC_HIGHSCORE2,111,36,74,12,ES_AUTOHSCROLL | ES_NUMBER,
+                    WS_EX_CLIENTEDGE
+END
+
+IDD_VIDEOSERVERINFO DIALOGEX 0, 0, 287, 199
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "视频服务器"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,120,178,47,15
+    GROUPBOX        "视频服务器列表：",IDC_STATIC_VIDEOSERVER,5,4,277,164
+    PUSHBUTTON      "新增",IDC_ADDVIDEOSERVER,171,149,50,14
+    PUSHBUTTON      "刪除",IDC_DELVIDEOSERVER,227,149,50,14
+END
+
+IDD_VIDEOSERVERPATH DIALOGEX 0, 0, 287, 69
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "视频服务器路径"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,64,46,47,15
+    PUSHBUTTON      "取消",IDCANCEL,175,46,47,15
+    EDITTEXT        IDC_VIDEOSERVERPATH,47,15,227,12,ES_AUTOHSCROLL,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "路徑：",-1,12,17,25,8
+END
+
+IDD_GAMETYPEINFO DIALOGEX 0, 0, 245, 123
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "游戏种类"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,44,101,47,15
+    PUSHBUTTON      "取消",IDCANCEL,155,101,47,15
+    EDITTEXT        IDC_TYPENAME,114,25,74,12,ES_AUTOHSCROLL,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "名称：",IDC_STATIC,57,27,25,8
+    GROUPBOX        "游戏类配置：",IDC_STATIC,5,4,233,87
+    LTEXT           "排序：",IDC_STATIC,57,43,25,8
+    EDITTEXT        IDC_SORT_ID,114,41,74,12,ES_AUTOHSCROLL | ES_NUMBER,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "图标ID：",IDC_STATIC,56,59,33,8
+    COMBOBOX        IDC_IMAGEID,114,56,74,55,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_GAMESERVICEPARAM DIALOGEX 0, 0, 287, 215
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "游戏服务器保存脚本选项"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,64,194,47,15
+    PUSHBUTTON      "取消",IDCANCEL,175,194,47,15
+    LTEXT           "中心服务器地址:",IDC_STATIC,19,23,61,8
+    COMBOBOX        IDC_CENTERSERVER_ADDR,81,20,101,93,CBS_DROPDOWN | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "中心服务器",IDC_STATIC,11,5,265,43
+    GROUPBOX        "游戏服务器",IDC_STATIC,11,53,265,80
+    LTEXT           "网络起始端口:",IDC_STATIC,19,76,53,8
+    EDITTEXT        IDC_GAMEBEGINPORT,74,71,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "网络绑定地址:",IDC_STATIC,19,105,53,8
+    COMBOBOX        IDC_GAMEBINDADDR,74,101,101,93,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "脚本保存",IDC_STATIC,11,141,265,43
+    LTEXT           "脚本路径:",IDC_STATIC,19,161,37,8
+    EDITTEXT        IDC_FILEPATH,74,157,158,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BROWSH,246,157,21,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,1,1,0
+ PRODUCTVERSION 1,1,1,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "FileDescription", "中心ServerModule"
+            VALUE "FileVersion", "1, 1, 1, 0"
+            VALUE "InternalName", "中心服务器.exe"
+            VALUE "OriginalFilename", "中心服务器.exe"
+            VALUE "ProductName", "中心ServerModule"
+            VALUE "ProductVersion", "1, 1, 1, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_CENTERSERVER_DIALOG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 213
+    END
+
+    IDD_SYSTEM_OPTION, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 161
+    END
+
+    IDD_DIALOG_INITSYSTEM, DIALOG
+    BEGIN
+        RIGHTMARGIN, 620
+        BOTTOMMARGIN, 425
+    END
+
+    IDD_GAMEKINDINFO, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 227
+    END
+
+    IDD_GAMESERVERINFO, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 85
+    END
+
+    IDD_VIDEOGAMETABLEINFO, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 127
+    END
+
+    IDD_VIDEOSERVERINFO, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 167
+    END
+
+    IDD_VIDEOSERVERPATH, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 37
+    END
+
+    IDD_GAMETYPEINFO, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 91
+    END
+
+    IDD_GAMESERVICEPARAM, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 183
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\CenterServer.rc2"  // 非 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"         // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

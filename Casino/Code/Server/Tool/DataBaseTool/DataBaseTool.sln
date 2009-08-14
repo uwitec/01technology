@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataBaseTool", "DataBaseTool.vcproj", "{A3979F7F-3FEB-40D2-93F6-9B70A936F1A8}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A3979F7F-3FEB-40D2-93F6-9B70A936F1A8}.Debug.ActiveCfg = Debug|Win32
+		{A3979F7F-3FEB-40D2-93F6-9B70A936F1A8}.Debug.Build.0 = Debug|Win32
+		{A3979F7F-3FEB-40D2-93F6-9B70A936F1A8}.Release.ActiveCfg = Release|Win32
+		{A3979F7F-3FEB-40D2-93F6-9B70A936F1A8}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,31 @@
+
+[ExternalCodes]
+IDS_STRING1=Call external code:  The file '%s' could not be found.
+IDS_STRING2=Call external code:  Windows could not be load the file named '%s'.
+IDS_STRING3=Call external code:  The ViseEntry procedure could not be found in the file '%s'.
+
+[RunApplication]
+IDS_STRING1=Run application:  The file '%s' does not exist.
+
+[Find]
+IDS_STRING1=Find action:  Search name = '%s';  '%s' matches the search criteria.
+IDS_STRING2=Find action:  Search name = '%s';  There were not any items found that match the search criteria.
+
+[Delete]
+IDS_STRING1=Delete action: Search name = '%s';  '%s' matched the search criteria and was deleted.
+IDS_STRING2=Delete action: Search name = '%s';  There were not any items found that match the search criteria.
+
+[Move]
+IDS_STRING1=Move action:  '%s' was moved to '%s'.
+IDS_STRING2=Move action:  '%s' could not be moved to '%s'.
+
+[Rename]
+IDS_STRING1=Rename action:  '%s' was renamed to '%s'.
+IDS_STRING2=Rename action:  '%s' could not be renamed to '%s'.
+
+[Copy]
+IDS_STRING1=Copy action:  '%s' was copied to '%s'.
+IDS_STRING2=Copy action:  '%s' could not be copied to '%s'.
+
+[General]
+IDS_STRING1=Default destination directory is blank. Using active Windows directory as the default.

@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Âé½«", "GameProject\GameServer.vcproj", "{C4E95B57-9EFE-4797-8E2E-2A7B01349B3A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{C4E95B57-9EFE-4797-8E2E-2A7B01349B3A}.Debug.ActiveCfg = Debug|Win32
+		{C4E95B57-9EFE-4797-8E2E-2A7B01349B3A}.Debug.Build.0 = Debug|Win32
+		{C4E95B57-9EFE-4797-8E2E-2A7B01349B3A}.Release.ActiveCfg = Release|Win32
+		{C4E95B57-9EFE-4797-8E2E-2A7B01349B3A}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

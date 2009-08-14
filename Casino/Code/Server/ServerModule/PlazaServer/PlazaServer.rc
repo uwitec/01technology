@@ -1,0 +1,219 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\PlazaServer.rc2""  // 非 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""         // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 7,1,1,0
+ PRODUCTVERSION 7,1,1,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "FileDescription", "大厅服务器"
+            VALUE "FileVersion", "7, 1, 1, 0"
+            VALUE "InternalName", "大厅服务器.exe"
+            VALUE "OriginalFilename", "大厅服务器.exe"
+            VALUE "ProductName", "大厅服务器"
+            VALUE "ProductVersion", "1, 1, 1, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_LOGONSERVER_DIALOG DIALOGEX 0, 0, 268, 215
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_MINIMIZEBOX | 
+    WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "大厅服务器"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    PUSHBUTTON      "启动服务",IDC_START_SERVICE,9,3,47,14
+    PUSHBUTTON      "停止服务",IDC_STOP_SERVICE,76,3,47,14,WS_DISABLED
+    PUSHBUTTON      "参数配置",IDC_INIT_SERVICE,143,3,47,14
+    PUSHBUTTON      "退出服务器",IDCANCEL,210,3,47,14
+    CONTROL         "",IDC_SERVICE_EVENT,"RichEdit20A",ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_NOHIDESEL | ES_READONLY | 
+                    ES_WANTRETURN | WS_BORDER | WS_VSCROLL | WS_TABSTOP,5,34,
+                    257,161,WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE
+    LTEXT           "人数",IDC_STATIC_USERCOUONT,7,202,196,8
+    PUSHBUTTON      "在线用户",IDC_ENUMCONNECTUSER,210,198,47,14
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,68,27,194,1
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,2,27,29,1
+    LTEXT           "消息窗口",IDC_STATIC,34,24,33,8
+END
+
+IDD_SYSTEM_OPTION DIALOGEX 0, 0, 287, 139
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "系统配置"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,64,116,47,15
+    PUSHBUTTON      "取消",IDCANCEL,175,116,47,15
+    EDITTEXT        IDC_LISTEN_PORT,69,16,74,12,ES_AUTOHSCROLL | ES_NUMBER,
+                    WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_MAX_CONNECT,69,49,74,12,ES_AUTOHSCROLL | ES_READONLY,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "监听端口：",IDC_STATIC,17,18,41,8
+    LTEXT           "连接容量：",IDC_STATIC,17,51,41,8
+    GROUPBOX        "网络配置：",IDC_STATIC,5,4,277,66
+    GROUPBOX        "安全配置：",IDC_STATIC,5,74,277,35
+    CONTROL         "",IDC_CENTER_SERVER_IP,"SysIPAddress32",WS_TABSTOP,69,
+                    32,74,12,WS_EX_CLIENTEDGE
+    LTEXT           "中心服务器：",IDC_STATIC,16,34,49,8
+    EDITTEXT        IDC_LOGONSERVERPASS,83,87,193,12,ES_PASSWORD | 
+                    ES_AUTOHSCROLL,WS_EX_CLIENTEDGE
+    LTEXT           "启动服务密码：",IDC_STATIC,17,89,57,8
+    LTEXT           "服务地址：",IDC_STATIC,154,18,41,8
+    COMBOBOX        IDC_SERVER_ADDR,197,15,79,102,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_CONNECTUSER DIALOGEX 0, 0, 452, 277
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "在线用户"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,146,255,47,15
+    PUSHBUTTON      "取消",IDCANCEL,257,255,47,15
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\PlazaServer.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_LOGONSERVER_DIALOG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 179
+    END
+
+    IDD_SYSTEM_OPTION, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 111
+    END
+
+    IDD_CONNECTUSER, DIALOG
+    BEGIN
+        RIGHTMARGIN, 366
+        BOTTOMMARGIN, 249
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\PlazaServer.rc2"  // 非 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"         // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,36 @@
+[Version]
+Signature="$CHICAGO$"
+Provider=Molo_king  2005.06.07 
+
+[DefaultInstall]
+DelReg=install_DelReg
+
+[install_DelReg]
+hkcr,".cel"
+hkcr,".cv2"
+hkcr,".fft"
+hkcr,".flt"
+hkcr,".imp"
+hkcr,".pk"
+hkcr,".scp"
+hkcr,".ses"
+hkcr,".xfm"
+hkcr,"Adobe Audition CV2"
+hkcr,"Adobe Audition FFT"
+hkcr,"Adobe Audition FLT"
+hkcr,"Adobe Audition Impulse File"
+hkcr,"Adobe Audition PK"
+hkcr,"Adobe Audition Script"
+hkcr,"Adobe Audition XFM"
+hkcr,"Adobe.Audition.loop.file"
+hkcr,"Adobe.Audition.session.file"
+hkcr,"CLSID\{083863F1-70DE-11d0-BD40-00A0C911CE86}\Instance\{2EEB323F-1389-48B5-8D33-3CA84B6C1861}"
+hkcr,"CLSID\{083863F1-70DE-11d0-BD40-00A0C911CE86}\Instance\{D88B0736-3DBF-44BF-92FF-2F3A9231C7FF}"
+hkcr,"CLSID\{2EEB323F-1389-48B5-8D33-3CA84B6C1861}"
+hkcr,"CLSID\{D88B0736-3DBF-44BF-92FF-2F3A9231C7FF}"
+hkcr,"SOFTWARE\Adobe\Audition"
+hklm,"SOFTWARE\Adobe\Audition"
+hklm,"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{86EF9FC4-F209-4520-B7E1-C7FF0EEBDFFF}"
+hklm,"SYSTEM\CurrentControlSet\Services\pfc"
+
+[Strings]

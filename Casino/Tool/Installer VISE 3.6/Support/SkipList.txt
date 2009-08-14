@@ -1,0 +1,43 @@
+<SKIP LIST ITEMS>
+<The items below are files, directories, and registry items that the>
+<system frequently changes but are usually not desired in your installer.>
+<Unlike items in your exclusion lists, skip items WILL still be tracked for>
+<changes, but they will by default NOT be shown as changed items.>
+<Skip items can be full or partial pathnames.>
+
+<FILES>
+<Don't display changes to the following files:>
+ffastun
+RECYCLER
+NTUSER.DAT
+NTUSER.DAT.LOG
+SYSTEM.DAT
+USER.DAT
+WIN386.SWP
+ntuser.dat.LOG
+pagefile.sys
+SOFTWARE
+SOFTWARE.LOG
+
+<DIRECTORIES>
+<Don't display changes in the following directories and their>
+<sub-directories wherever they may exist:>
+\Recent\
+\Temporary Internet Files\
+
+<REGISTRY>
+<Don't display changes in the following registry keys or values:>
+SAM
+<Meant to exclude the hive HKEY_LOCAL_MACHINE\SAM>
+SECURITY
+<Meant to exclude HKEY_LOCAL_MACHINE\SECURITY>
+SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer
+<Meant to exclude HKEY_USERS\DEFAULT>
+DEFAULT
+SOFTWARE\Microsoft\Windows\CurrentVersion\NotificationMgr\
+SOFTWARE\Microsoft\Windows\Shared Tools\Find Fast\
+HARDWARE\DESCRIPTION\System\CentralProcessor\0
+SYSTEM\Select
+SYSTEM\ControlSet
+SYSTEM\CurrentControlSet
+SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall
