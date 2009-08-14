@@ -1,0 +1,14 @@
+<GameServiceParam>
+<CenterServerAddr>192.168.18.5</CenterServerAddr>
+<LoaderServerPass>033229186b5ad6faeb42</LoaderServerPass>
+<ServerID>1</ServerID>
+<GameNetPort>9600</GameNetPort>
+<GameNetAddr>192.168.18.5</GameNetAddr>
+</GameServiceParam>
+<GameServiceParam>
+<CenterServerAddr>192.168.18.5</CenterServerAddr>
+<LoaderServerPass>033229186b5ad6faeb42</LoaderServerPass>
+<ServerID>2</ServerID>
+<GameNetPort>9602</GameNetPort>
+<GameNetAddr>192.168.18.5</GameNetAddr>
+</GameServiceParam>

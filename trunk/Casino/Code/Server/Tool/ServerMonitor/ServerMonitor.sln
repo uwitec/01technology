@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ServerMonitor", "ServerMonitor.vcproj", "{B9459A77-8335-4996-A4D2-776D3EF69AFC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{21901E3E-E4BF-45E2-AFBE-E2825ED882A2} = {21901E3E-E4BF-45E2-AFBE-E2825ED882A2}
+		{1F136CC4-1ED0-44F7-9904-72D3FA8A8A03} = {1F136CC4-1ED0-44F7-9904-72D3FA8A8A03}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GridCtrl", "..\..\ShareModule\GridCtrl\GridCtrl.vcproj", "{21901E3E-E4BF-45E2-AFBE-E2825ED882A2}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MarkupSTL", "..\..\ShareModule\MarkupSTL\MarkupSTL.vcproj", "{1F136CC4-1ED0-44F7-9904-72D3FA8A8A03}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B9459A77-8335-4996-A4D2-776D3EF69AFC}.Debug.ActiveCfg = Debug|Win32
+		{B9459A77-8335-4996-A4D2-776D3EF69AFC}.Debug.Build.0 = Debug|Win32
+		{B9459A77-8335-4996-A4D2-776D3EF69AFC}.Release.ActiveCfg = Release|Win32
+		{B9459A77-8335-4996-A4D2-776D3EF69AFC}.Release.Build.0 = Release|Win32
+		{21901E3E-E4BF-45E2-AFBE-E2825ED882A2}.Debug.ActiveCfg = Debug|Win32
+		{21901E3E-E4BF-45E2-AFBE-E2825ED882A2}.Debug.Build.0 = Debug|Win32
+		{21901E3E-E4BF-45E2-AFBE-E2825ED882A2}.Release.ActiveCfg = Release|Win32
+		{21901E3E-E4BF-45E2-AFBE-E2825ED882A2}.Release.Build.0 = Release|Win32
+		{1F136CC4-1ED0-44F7-9904-72D3FA8A8A03}.Debug.ActiveCfg = Debug|Win32
+		{1F136CC4-1ED0-44F7-9904-72D3FA8A8A03}.Debug.Build.0 = Debug|Win32
+		{1F136CC4-1ED0-44F7-9904-72D3FA8A8A03}.Release.ActiveCfg = Release|Win32
+		{1F136CC4-1ED0-44F7-9904-72D3FA8A8A03}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

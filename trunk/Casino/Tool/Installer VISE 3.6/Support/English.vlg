@@ -1,0 +1,294 @@
+[SplashDlg]
+IDS_TITLE=%ProductName% 安装程序
+
+[WelcomeDlg]
+IDS_TITLE=欢迎
+IDS_STRING1=欢迎使用 %ProductName% 安装程序。该程序将在您的计算机中安装 %ProductName%。
+IDS_STRING2=运行该安装程序之前，强烈建议您退出所有 Windows 程序。
+IDS_STRING3=单击“取消”退出安装，然后关闭任何您正在运行的程序。单击“下一步”继续安装程序。
+IDS_STRING4=警告: 本计算机软件受著作权法和国际公约保护。
+IDS_STRING5=未经授权擅自复制或散发本程序的全部或任何部分，都会导致严厉的民事和刑事惩罚，并将受到法律允许范围内的最大限度的起诉。
+
+[Readme1Dlg]
+IDS_TITLE=重要注释
+
+[RequirementsDlg]
+IDS_TITLE=要求
+IDS_MESSAGE1=安装程序已检测到该系统没有 %ProductName% 所需要的下列各项。
+IDS_MESSAGE2A=单击“下一步”继续或“取消”退出安装。如果您选择继续，%ProductName% 可能无法正常运行。
+IDS_MESSAGE2B=单击“取消”退出安装。
+IDS_MEMORY=需要至少 %d Mb 的内存。
+IDS_PLATFORM_1=Windows
+IDS_PLATFORM_2=、
+IDS_PLATFORM_3=或
+IDS_PLATFORM_4=版本 %d.%d
+IDS_PLATFORM_5=需要 %s。
+IDS_PLATFORM_6=3.1
+IDS_PLATFORM_7=32s
+IDS_PLATFORM_8=95
+IDS_PLATFORM_9=95OSR2
+IDS_PLATFORM_10=98
+IDS_PLATFORM_11=98SE
+IDS_PLATFORM_12=Me
+IDS_PLATFORM_13=NT 3.x
+IDS_PLATFORM_14=NT 4
+IDS_PLATFORM_15=2000
+IDS_PLATFORM_16=XP
+IDS_ADMINPRIVILEGES=需要管理员用户权限级别。
+IDS_AUDIO1=需要 WAV 文件回放能力。
+IDS_AUDIO2=需要 MIDI 文件回放能力。
+IDS_AUDIO3=需要 WAV 和 MIDI 文件回放能力。
+IDS_AUDIO4=需要 WAV 或 MIDI 文件回放能力。
+IDS_DISPLAY=需要有能力显示 %s 于 %s 色。
+IDS_RES1=640 x 480
+IDS_RES2=800 x 600
+IDS_RES3=1024 x 768
+IDS_RES4=1280 x 1024
+IDS_RES5=1400 x 1050
+IDS_RES6=1600 x 1200
+IDS_COLORS1=16
+IDS_COLORS2=256
+IDS_COLORS3=65,536
+IDS_COLORS4=24 位
+IDS_QTIME1=需要 Quicktime for Windows
+IDS_QTIME2=需要 Quicktime for Windows
+
+[LicenseDlg]
+IDS_TITLE=软件许可协议
+IDS_MESSAGE1=请阅读下列许可协议。按“PAGE DOWN”键查阅其余协议。
+IDS_MESSAGE2=您是否接受上述“许可协议”中的所有条款？如果您选择“否”，安装程序将关闭。要安装该产品，您必须接受该协议。
+
+[VerifyPasswordDlg]
+IDS_TITLE=密码
+IDS_STRING1=安装程序需要您在继续之前输入密码。将您的密码键入到下面的框中，然后单击“下一步”。
+IDS_STRING2=如果您不知道密码，将无法继续。单击“取消”退出安装。
+
+[RegistrationInfoDlg]
+IDS_TITLE=注册
+IDS_STRING1=安装程序准备安装 %ProductName%。
+IDS_STRING2=请键入您的名称、组织、和序列号。
+IDS_LABEL1=用户名(&U)
+IDS_LABEL2=组织(&O):
+IDS_LABEL3=序列号(&S):
+
+[DestDirDlg]
+IDS_DESTDIRGROUP=目的目录(&D)
+IDS_REQUIRED=需要空间:
+IDS_AVAILABLE=可用空间:
+
+[DestDirDlg1]
+IDS_TITLE=选择目的地址
+IDS_STRING1=安装程序将安装 %ProductName% 到下列目录中。
+IDS_STRING2=要安装到该目录，单击“下一步”。
+IDS_STRING3=要安装到不同目录，单击“浏览”并选择另一个目录。
+IDS_STRING4=您可以选择不安装 %ProductName%，只需单击“取消”来退出安装。
+
+[DestDirDlg2]
+IDS_TITLE=安装类型
+IDS_STRING1=单击您喜欢的安装类型，然后单击“下一步”。
+IDS_TYPICAL=典型(&T)
+IDS_TYPICAL2=程序将被安装大部份的公共选项。推荐用于大部份用户。
+IDS_COMPACT=简洁(&C)
+IDS_COMPACT2=程序将被安装最小需要的选项。
+IDS_CUSTOM=自定义(&C)
+IDS_CUSTOM2=您可以选择您需要安装的选项。推荐用于高级用户。
+
+[PackagesDlg]
+IDS_TITLE=选择组件
+IDS_STRING1=选择您要安装的组件，清除您不要安装的组件。
+IDS_COMPONENTS=组件(&C)
+IDS_DESCGROUP=描述
+IDS_DETAILS=详细(&D)...
+IDS_REQUIRED=需要空间:
+IDS_AVAILABLE=可用空间:
+
+[ListPackageDlg]
+IDS_TITLE=选择子组件
+IDS_STRING1=选择您要安装的组件，清除您不要安装的组件。
+IDS_SUBCOMPONENTS=子组件(&S)
+IDS_DESCGROUP=描述
+IDS_REQUIRED=需要空间:
+IDS_AVAILABLE=可用空间:
+
+[ProgramFolderDlg]
+IDS_TITLE=选择程序文件夹
+IDS_STRING1=安装程序将添加程序图标到下面列出的“程序文件夹”中。您可以键入一个新的文件夹名称，或从存在的文件夹列表中选择一个。单击“下一步”继续。
+IDS_PROGRAMFOLDER=程序文件夹(&P):
+IDS_EXISTINGFOLDERS=存在的文件夹(&X):
+IDS_SKIPTHIS=跳过这个(&S)>
+
+[ReadyToInstallDlg]
+IDS_TITLE=准备安装
+IDS_STRING1=现在安装程序已有足够的信息可以开始安装 %ProductName%。
+IDS_STRING2=继续之前单击“后退”可以作一些更改。单击“取消”退出安装。
+IDS_CURRENTSETTINGS=当前设置:
+IDS_SETUPTYPE=安装类型
+IDS_TYPICAL=典型
+IDS_COMPACT=简洁
+IDS_CUSTOM=自定义
+IDS_COMPONENTS=组件
+IDS_COMPLETE=完成
+IDS_DESTINATIONDIRECTORY=目的目录
+IDS_PROGRAMFOLDER=程序文件夹
+
+[Readme2Dlg]
+IDS_TITLE=最后时刻注意
+
+[FinishedDlg]
+IDS_TITLE=已完成
+IDS_STRING1=安装程序已完成，%ProductName% 已被安装！
+IDS_STRING2=单击“关闭”结束安装
+
+[FinishedDlg2]
+IDS_TITLE=已完成
+IDS_STRING1=安装程序已完成复制文件到您的计算机。
+IDS_STRING2=在您可以使用程序之前，您必须重新启动 Windows 或您的计算机。
+IDS_STRING3=从驱动器中移去任何磁盘，然后单击“关闭”完成安装。
+IDS_RADIO1=是，我要立即重启动计算机。
+IDS_RADIO2=否，我将稍后重启动计算机。
+
+[BrowseDlg]
+IDS_TITLE=选择目录
+IDS_STRING1=请选择安装目录。
+IDS_PATH=路径(&P):
+IDS_DIRECTORIES=目录(&D):
+IDS_DRIVES=驱动器(&D):
+
+[NextDiskDlg]
+IDS_TITLE=安装程序需要下一张磁盘
+IDS_MESSAGE=请插入下一张磁盘，第 %d 张磁盘。如果该磁盘中的文件可以在另一个地址找到(例如，在另一个驱动器)，输入它的完整路径或单击“浏览”按钮来选择它的路径。
+IDS_PATH=路径:
+
+[ProgressDlg]
+IDS_TITLE=安装
+IDS_ITEMSREMAINING=剩余项目: %d
+IDS_INSTALLING=正在安装: %s
+IDS_UPDATING=正在更新: %s
+
+[StartupDlg]
+IDS_TITLE=%s 安装
+IDS_MESSAGE1=正在开始 %s 安装。
+IDS_MESSAGE2=请稍候...
+
+[MultipleFileDlg]
+IDS_TITLE=选择项目
+
+[DownloadSitesDlg]
+IDS_TITLE=下载站点
+IDS_MESSAGE=请从下面的下载站点列表中为 %ProductName% 选择一个安装点。
+IDS_LABEL=下载站点:
+
+[Buttons]
+IDS_BACK=< 后退(&B)
+IDS_NEXT=下一步(&N) >
+IDS_CANCEL=取消
+IDS_BROWSE=浏览(&R)..
+IDS_YES=是(&Y)
+IDS_NO=否(&N)
+IDS_CONTINUE=继续(&C)
+IDS_OK=确定
+IDS_CLOSE=关闭
+IDS_PRINT=打印(&P)
+IDS_INSTALL=安装
+IDS_SKIP=跳过
+IDS_NEWER=较新
+IDS_OLDER=较旧
+IDS_REPLACE=替换
+IDS_DELETE=删除
+
+[StringTable]
+IDS_STRING1=您的安装驱动器 (%c:) 中没有足够的磁盘空间来安装选定的文件。您是否要继续？
+IDS_STRING2=安装过程未完成。如果您现在就退出安装，%s 将不会被正确地安装。您是否真要退出安装？
+IDS_STRING3=不是所有的文件都被复制(如，您选择了忽略，安装失败)。由于这些丢失的文件，您可能会在运行 %s 时会遇到问题。如果关联到的这些文件有问题，您应该再次运行安装程序。
+IDS_STRING4=安装程序无法写入到目的文件“%s”中。
+IDS_STRING5=文件“%s”已经存在。您是否要替换它？
+IDS_STRING6=安装程序无法打开目的文件“%s”。文件可能正在被另一个应用程序使用，或被标记为只读。关闭应用程序或更改文件的只读属性并再试。
+IDS_STRING7=安装不成功。
+IDS_STRING8=安装已成功完成。
+IDS_STRING9=安装程序无法打开源文件“%s”。
+IDS_STRING10=“%s”不是一个有效的目录名称。
+IDS_STRING11=CRC 检查失败。“%s”未正确复制。
+IDS_STRING12=
+IDS_STRING13=%s 安装程序
+IDS_STRING14=正在复制文件:
+IDS_STRING15=选择 %s 的安装地址
+IDS_STRING16=在新的设置生效之前，您必须关机并重启动计算机。
+IDS_STRING17=您是否要立即重启动计算机？
+IDS_STRING18=您是否要包括一个卸载程序？
+IDS_STRING19=保存已更新的文件为
+IDS_STRING20=您是否要保留一个原始文件的副本？
+IDS_STRING21=文件“%s”无法被更新。
+IDS_REPLACE_FILE_EXT_SETTINGS_CAPTION=注册文件类型
+IDS_REPLACE_FILE_EXT_SETTINGS_MSG=文件类型“%s”已经被 Windows 注册。您是否要替换那些设置？
+IDS_FIND_MESSAGE=正在搜索已安装的组件...
+IDS_APPNAME=安装
+IDS_DECOMPFILEERRORMSG=安装程序无法解压缩文件“%s”。
+IDS_MEMERRORMSG=无足够的内存继续。
+IDS_CHECKAPACKAGE=单击“下一步”按钮之前，请选择一个要安装的程序包。
+IDS_FILEDOESNTEXIST=文件“%s”不在驱动器“%s”中。单击“跳过”来跳过该文件或单击“安装”来安装该文件。
+IDS_NEWERFILE=文件“%s”已经在“%s”中，比您将要安装的更新。单击“较新”来保持较新的文件或单击“较旧”来替换那个文件。
+IDS_SAMEFILE=文件“%s”已经在“%s”中，与您将要安装的相同。单击“跳过”来保留文件或单击“替换”来替换那个文件。
+IDS_OLDERFILE=文件“%s”已经在“%s”中，比您将要安装的更旧。单击“较旧”保留较旧的文件或单击“较新”来替换那个文件。
+IDS_REPLACEFILEWITHFOLDER=一个名为“%s”的文件(在“%s”中)，与需要被安装的文件夹有相同的名称。单击“取消”停止安装或单击“删除”来替换那个文件。
+IDS_REPLACEFOLDERWITHFILE=一个名为“%s”的文件夹(在“%s”中)，与需要被安装的文件有相同的名称。单击“取消”停止安装或单击“删除”来替换那个文件夹。
+IDS_UPDATINGREGISTRY=正在更新注册表...
+IDS_DOWNLOADERR=文件下载失败。“%s”未成功下载。
+IDS_NOT_ENOUGH_DISK_SPACE=对不起，驱动器“%s”中无足够的自由磁盘空间来继续。
+IDS_NEWER_INSTALLER=有一个新的安装程序可用。将下载新的安装程序，该安装程序将退出，然后新的安装程序将被启动。
+IDS_NO_DOWNLOAD_NEEDED=没有下载的必要 - 安装程序中所包含的文件是最新的。
+IDS_TCPIP_CONNECTIONFAILED=无法与“%s”建立连接。
+IDS_TCPIP_HTTPGETCOMMANDFAILED=文件“%s”无法下载。
+IDS_OLDFILEDATAONSERVER=服务器中的文件数据太旧了而无法被该安装程序使用。
+IDS_DIRECTXSETUPFAILED=DirectXSetup 失败。错误代码 = %d。
+IDS_INVALIDREGISTRATION=您输入的注册信息无效。
+IDS_REQUIREDINPUT=需要输入一个或更多编辑字段。
+IDS_HTTP_PROXYAUTHORIZATIONFAILED=尝试开始一个连接时认证失败。请检查您的设置并再次尝试连接。
+
+[Uninstaller]
+IDS_STRING1=您是否真要完全删除选定的应用程序及其所有组件？
+IDS_STRING2=确认文件删除
+IDS_STRING3=系统显示下列共享文件不再被任何程序使用。
+IDS_STRING4=是否删除共享文件？
+IDS_STRING5=卸载成功完成。
+IDS_STRING6=卸载
+IDS_STRING7=如果一些程序仍然在使用该文件而它被删除了，那些程序可能无法正常运行。您是否真要删除共享文件？
+IDS_STRING8=卸载部分成功。
+IDS_ADMINPRIVILEGESNEEDED=需要管理员权限来卸载该软件。
+IDS_YES=是(&Y)
+IDS_NO=否(&N)
+IDS_YESTOALL=全部是(&A)
+IDS_REMOVINGFILE=正在删除文件:
+
+[SelectLanguageDlg]
+IDS_TITLE=选择语言
+IDS_MESSAGE=请选择安装时您想使用的语言。
+
+[Check4NewerFilesDlg]
+IDS_TITLE=%ProductName% 安装程序
+IDS_MESSAGE=安装程序已经有所有必要的文件来完成所选择的安装。\n\n单击“安装”立即开始安装，或单击“更新”检查网络上更多当前版本的安装文件。
+IDS_UPDATE=更新(&U)
+IDS_INSTALL=安装(&I)
+
+[DownloadMessageDlg]
+IDS_TITLE=%ProductName% 安装程序
+IDS_MESSAGE=正在下载文件
+IDS_PREDOWNLOADMSG=必要的文件将被下载到您的计算机中。\n\n\n如果您有拨号连接到 Internet，请确信它是活动的并单击下面的“继续”按钮。
+IDS_POSTDOWNLOADMSG=文件已经被下载到您的计算机中。\n\n\n如果您有拨号连接到 Internet，您现在可以断开。断开之后，单击下面的“继续”按钮。
+IDS_USEPROXY=使用 HTTP 代理(&U):
+IDS_USEFTPPROXY=使用 FTP 代理(&U):
+IDS_SERVER=服务器(&S):
+IDS_PORT=端口(&P):
+IDS_DATASIZE=估计要下载数据的容量:
+IDS_USERNAME=用户名(&N):
+IDS_PASSWORD=密码(&W):
+IDS_IFREQUIRED=代理服务器用户名和密码(如果需要)
+
+[DownloadProgressDlg]
+IDS_TITLE=%ProductName% 安装程序
+IDS_MESSAGE=正在下载文件
+IDS_MESSAGE2=文件正在被下载到您的计算机中。
+IDS_STATUS=状态:
+IDS_RECEIVING=正在接收文件...\t(%d / %d)
+IDS_DOWNLOADING=正在下载\t%s
+IDS_BYTESRECEIVED=%luK / %luK
+IDS_VISEDATA=VISE 数据

@@ -1,0 +1,267 @@
+[Version]
+Signature="$CHICAGO$"
+Provider=Molo_king  2005.06.07  
+
+[DefaultInstall]
+AddReg=install_AddReg
+
+[install_AddReg]
+hkcr,".cel",,,"Adobe.Audition.loop.file"
+hkcr,".cv2",,,"Adobe Audition CV2"
+hkcr,".fft",,,"Adobe Audition FFT"
+hkcr,".flt",,,"Adobe Audition FLT"
+hkcr,".imp",,,"Adobe Audition Impulse File"
+hkcr,".pk",,,"Adobe Audition PK"
+hkcr,".scp",,,"Adobe Audition Script"
+hkcr,".ses",,,"Adobe.Audition.session.file"
+hkcr,".xfm",,,"Adobe Audition XFM"
+
+hkcr,"Adobe Audition CV2",,,"Adobe Audition CV2"
+hkcr,"Adobe Audition CV2\DefaultIcon",,,"%01%\Audition.exe,3"
+hkcr,"Adobe Audition CV2\shell\Open\command",,,"""%01%\Audition.exe"""
+hkcr,"Adobe Audition CV2\shell\Open\command","command",0x10000,"XjAGS01T6=0,`5{W.68{Application>O71w3O)dr?,+RXfW1g@&"
+
+hkcr,"Adobe Audition FFT",,,"Adobe Audition FFT"
+hkcr,"Adobe Audition FFT\DefaultIcon",,,"%01%\Audition.exe,4"
+hkcr,"Adobe Audition FFT\shell\Open\command",,,"""%01%\Audition.exe"""
+hkcr,"Adobe Audition FFT\shell\Open\command","command",0x10000,"XjAGS01T6=0,`5{W.68{Application>O71w3O)dr?,+RXfW1g@&"
+
+hkcr,"Adobe Audition FLT",,,"Adobe Audition FLT"
+hkcr,"Adobe Audition FLT\DefaultIcon",,,"%01%\Audition.exe,5"
+hkcr,"Adobe Audition FLT\shell\Open\command",,,"""%01%\Audition.exe"""
+hkcr,"Adobe Audition FLT\shell\Open\command","command",0x10000,"XjAGS01T6=0,`5{W.68{Application>O71w3O)dr?,+RXfW1g@&"
+
+hkcr,"Adobe Audition Impulse File",,,"Adobe Audition Impulse File"
+hkcr,"Adobe Audition Impulse File\DefaultIcon",,,"%01%\Audition.exe,8"
+hkcr,"Adobe Audition Impulse File\shell\Open\command",,,"""%01%\Audition.exe"""
+hkcr,"Adobe Audition Impulse File\shell\Open\command","command",0x10000,"XjAGS01T6=0,`5{W.68{Application>O71w3O)dr?,+RXfW1g@&"
+
+hkcr,"Adobe Audition PK",,,"Adobe Audition PK"
+hkcr,"Adobe Audition PK\DefaultIcon",,,"%01%\Audition.exe,6"
+hkcr,"Adobe Audition PK\shell\Open\command",,,"""%01%\Audition.exe"""
+hkcr,"Adobe Audition PK\shell\Open\command","command",0x10000,"XjAGS01T6=0,`5{W.68{Application>O71w3O)dr?,+RXfW1g@&"
+
+hkcr,"Adobe Audition Script",,,"Adobe Audition Script"
+hkcr,"Adobe Audition Script\DefaultIcon",,,"%01%\Audition.exe,9"
+hkcr,"Adobe Audition Script\shell\Open\command",,,"""%01%\Audition.exe"""
+hkcr,"Adobe Audition Script\shell\Open\command","command",0x10000,"XjAGS01T6=0,`5{W.68{Application>O71w3O)dr?,+RXfW1g@&"
+
+hkcr,"Adobe Audition XFM",,,"Adobe Audition XFM"
+hkcr,"Adobe Audition XFM\DefaultIcon",,,"%01%\Audition.exe,11"
+hkcr,"Adobe Audition XFM\shell\Open\command",,,"""%01%\Audition.exe"""
+hkcr,"Adobe Audition XFM\shell\Open\command","command",0x10000,"XjAGS01T6=0,`5{W.68{Application>O71w3O)dr?,+RXfW1g@&"
+
+hkcr,"Adobe.Audition.loop.file",,,"Adobe Audition loop file"
+hkcr,"Adobe.Audition.loop.file\DefaultIcon",,,"%01%\Audition.exe,2"
+hkcr,"Adobe.Audition.loop.file\shell",,,"Edit"
+hkcr,"Adobe.Audition.loop.file\shell\edit",,,"&Edit with Audition 1.5"
+hkcr,"Adobe.Audition.loop.file\shell\edit\command",,,"""%01%\Audition.exe"" ""%%1"""
+hkcr,"Adobe.Audition.loop.file\shell\open\command",,,"""%01%\Audition.exe"" ""%%1"""
+hkcr,"Adobe.Audition.loop.file\shell\Play\command",,,"""%01%\Audition.exe"" ""%%1"" /autoplay:y"
+
+hkcr,"Adobe.Audition.session.file",,,"Adobe Audition session file"
+hkcr,"Adobe.Audition.session.file\DefaultIcon",,,"%01%\Audition.exe,10"
+hkcr,"Adobe.Audition.session.file\shell",,,"Edit"
+hkcr,"Adobe.Audition.session.file\shell\edit",,,"&Edit with Audition 1.5"
+hkcr,"Adobe.Audition.session.file\shell\edit\command",,,"""%01%\Audition.exe"" ""%%1"""
+hkcr,"Adobe.Audition.session.file\shell\open\command",,,"""%01%\Audition.exe"" ""%%1"""
+hkcr,"Adobe.Audition.session.file\shell\Play\command",,,"""%01%\Audition.exe"" ""%%1"" /autoplay:y"
+
+hkcr,"CLSID\{083863F1-70DE-11d0-BD40-00A0C911CE86}\Instance\{2EEB323F-1389-48B5-8D33-3CA84B6C1861}","CLSID",,"{2EEB323F-1389-48B5-8D33-3CA84B6C1861}"
+hkcr,"CLSID\{083863F1-70DE-11d0-BD40-00A0C911CE86}\Instance\{2EEB323F-1389-48B5-8D33-3CA84B6C1861}","FilterData",0x1,02,00,00,00,00,00,20,00,01,00,00,00,00,00,00,00,30,70,69,33,\
+  00,00,00,00,00,00,00,00,01,00,00,00,00,00,00,00,00,00,00,00,30,74,79,33,00,\
+  00,00,00,38,00,00,00,48,00,00,00,61,75,64,73,00,00,10,00,80,00,00,AA,00,38,\
+  9B,71,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+hkcr,"CLSID\{083863F1-70DE-11d0-BD40-00A0C911CE86}\Instance\{2EEB323F-1389-48B5-8D33-3CA84B6C1861}","FriendlyName",,"Audition Audio Null"
+
+hkcr,"CLSID\{083863F1-70DE-11d0-BD40-00A0C911CE86}\Instance\{D88B0736-3DBF-44BF-92FF-2F3A9231C7FF}","CLSID",,"{D88B0736-3DBF-44BF-92FF-2F3A9231C7FF}"
+hkcr,"CLSID\{083863F1-70DE-11d0-BD40-00A0C911CE86}\Instance\{D88B0736-3DBF-44BF-92FF-2F3A9231C7FF}","FilterData",0x1,02,00,00,00,00,00,20,00,01,00,00,00,00,00,00,00,30,70,69,33,\
+  00,00,00,00,00,00,00,00,01,00,00,00,00,00,00,00,00,00,00,00,30,74,79,33,00,\
+  00,00,00,38,00,00,00,48,00,00,00,61,75,64,73,00,00,10,00,80,00,00,AA,00,38,\
+  9B,71,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+hkcr,"CLSID\{083863F1-70DE-11d0-BD40-00A0C911CE86}\Instance\{D88B0736-3DBF-44BF-92FF-2F3A9231C7FF}","FriendlyName",,"Dump"
+
+hkcr,"CLSID\{2EEB323F-1389-48B5-8D33-3CA84B6C1861}",,,"Audition Null Audio"
+hkcr,"CLSID\{2EEB323F-1389-48B5-8D33-3CA84B6C1861}\InprocServer32",,,"%01%\VideoDump.ax"
+hkcr,"CLSID\{2EEB323F-1389-48B5-8D33-3CA84B6C1861}\InprocServer32","ThreadingModel",,"Both"
+
+hkcr,"CLSID\{D88B0736-3DBF-44BF-92FF-2F3A9231C7FF}",,,"Audition VideoDump"
+hkcr,"CLSID\{D88B0736-3DBF-44BF-92FF-2F3A9231C7FF}\InprocServer32",,,"%01%\VideoDump.ax"
+hkcr,"CLSID\{D88B0736-3DBF-44BF-92FF-2F3A9231C7FF}\InprocServer32","ThreadingModel",,"Both"
+
+hklm,"SOFTWARE\Adobe\Audition\1.5","LoadSessionOnce",,"""%01%\Audition Theme\Audition-Theme.ses"" \KEEPDEFAULTFMT"
+hklm,"SOFTWARE\Adobe\Audition\1.5\AdobeViewer","EULA",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\1.5\Prefs","Language",0x10001,00,00,00,00
+hkcu,"Software\Adobe\Audition\1.5\Presets\Colors","Ver",0x10001,18,00,00,00
+hkcu,"Software\Adobe\Audition\1.5\Presets\Colors","Set00",,"(默认方案),WvFg=4BF3A7,WvBk=000000,Bndy=EDECEC,Cntr=A90404,CueM=F34B58,RngM=4B82F3,GrdL=003500,_Sel=F6F6FF,ChLi=4B82F3,ChBk=0A0917,ChGr=006A00,ChDt=FFFFFF,SpHi=F8FFED,SpLo=010E19,SpRv=1,SpGm=B4,Face=626C7B,_LED=FF0000,Edit=7FFF00,UseW=2,PBSg=0,prog=0000FF,STWa=FFFFFFFF,STSp=28,Curs=FFFF00,AnyL=00306E,AnyR=640028,ReWr=404000"
+
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{005D3940-4D45-11D6-8930-00902712B9B0}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{005D3941-4D45-11D6-8930-00902712B9B0}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{005D3942-4D45-11D6-8930-00902712B9B0}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{09613C44-E703-4F6E-93C4-A0698F2A74FD}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{09A7CE02-11EA-11D3-8919-00902712B9B0}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{09A7CE03-11EA-11D3-8919-00902712B9B0}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{09A7CE06-11EA-11D3-8919-00902712B9B0}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{0AE50FD8-14F2-4487-B9E5-721263B93327}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{0AE6EBE0-BFA2-11D4-B52C-00A0C98E4DDD}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{0B3CC1A4-C31E-412C-BA38-5A5AE189D81A}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{0C8C5628-10F5-11D0-8A58-0800099D420E}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{0C8C5629-10F5-11D0-8A58-0800099D420E}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{0C8C5647-10F5-11D0-8A58-0800099D420E}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{0C8C5648-10F5-11D0-8A58-0800099D420E}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{0C8C5649-10F5-11D0-8A58-0800099D420E}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{0C8C5650-10F5-11D0-8A58-0800099D420E}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{0C8C5651-10F5-11D0-8A58-0800099D420E}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{0EFC5A84-7F47-4EE7-BFFB-E81290541844}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{14E83F7B-3946-43B9-B439-E26546C75312}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{17CCA71B-ECD7-11D0-B908-00A0C9223196}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{199BF8E0-B4C9-4E5B-8FA5-C42B992A36E5}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{1B7D9697-9B5B-4F7B-978D-438050AE173D}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{1CB1623E-BBEC-4E8D-B2DF-DC08C6F4627C}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{1D30F742-03FA-11D0-8A58-0800099D420E}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{1DAF6B78-4A6E-4B99-8862-1277D6801E9F}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{1E83C701-DAC9-11D2-A9CA-00AA00C7EF04}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{26721E10-390C-11D0-8A22-00A0C90C9156}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{27DB6B94-6FC5-436B-8D79-4CA395A6EEB0}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{2D90933E-F9F3-45D9-BF92-5CF39BC6F840}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{3256C182-12C3-4FEE-85EB-BA34B579C02F}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{32F2E6EA-5A27-4BB9-8E7F-117102EDD1B2}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{394A48CA-81F3-4FE3-BFD9-8317608359F6}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{398794C5-48EE-439A-AFEF-F802F83193C7}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{3A1C0739-3729-442C-BE2C-53514CF180F9}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{3A4B9C26-C211-11CF-8A58-0800099D420E}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{3A4B9C2A-C211-11CF-8A58-0800099D420E}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{3A4B9C30-C211-11CF-8A58-0800099D420E}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{3A4B9C38-C211-11CF-8A58-0800099D420E}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{3FF58CA1-80B1-11D3-A411-0060976092C0}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{3FF58CA5-80B1-11D3-A411-0060976092C0}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{418065CE-02BD-40D7-8EFA-73479B2F7AC0}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{4199559B-B514-4FD7-A58C-16715CFA7811}",0x10001,03,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{52102D14-18E3-4F8C-86B8-0FB27B7FC199}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{5528A756-C78E-4CCA-91C8-B385A9EB81C9}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{59BF1336-8113-4BE5-8558-CCBBE6CBB393}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{59DB0681-A690-447A-98F9-D9A47F99E83D}",0x10001,03,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{5AC2B862-A2A5-4FA2-9595-60B926F6D2F1}",0x10001,03,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{5BD44FA8-968D-4818-AFFA-3BF532A024E9}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{5CDFDF40-C071-11D4-8ABA-0050DAC9123F}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{5D1AF5A7-DEED-457F-B488-D4716DC9DDC4}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{5EF69345-003C-11D0-8A58-0800099D420E}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{6A08CF80-0E18-11CF-A24D-0020AFD79767}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{6D6FB124-CD4C-11D1-A0B8-0060976092C0}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{6D6FB125-CD4C-11D1-A0B8-0060976092C0}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{6D6FB126-CD4C-11D1-A0B8-0060976092C0}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{6D6FB127-CD4C-11D1-A0B8-0060976092C0}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{6D6FB128-CD4C-11D1-A0B8-0060976092C0}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{6D6FB129-CD4C-11D1-A0B8-0060976092C0}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{6D6FB156-CD4C-11D1-A0B8-0060976092C0}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{6D6FB157-CD4C-11D1-A0B8-0060976092C0}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{6D6FB158-CD4C-11D1-A0B8-0060976092C0}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{75442241-3A2E-11D3-926E-00104BCC4903}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{79A00FA1-C577-11D4-AEEC-00600857EED8}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{7B79DF86-FABB-11D4-948E-D00354C10000}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{7BB8F375-3B5B-4DBE-9711-1201004364B7}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{7BBD0944-AA9E-40AA-94B5-948331FDF0EB}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{7D00A7D8-B5E0-422D-93BA-3C89F4C377FA}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{8399593B-ABB9-4213-A836-3E4590321E5C}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{89EC7585-17E1-11D0-8A58-0800099D420E}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{89EC7586-107E-11D0-8A58-0800099D420E}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{89EC7587-107E-11D0-8A58-0800099D420E}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{89EC7588-107E-11D0-8A58-0800099D420E}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{8E5B11C1-5C6D-11D3-A9CA-005004429289}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{9098F1D4-1F66-4C5B-A5AD-5EC5434F2DFD}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{94B1BD54-C717-4279-B1CF-1A49DD5CE145}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{985DAF67-589F-4B8D-8BBC-D7AD651B9022}",0x10001,03,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{9F188910-17EE-48AE-8FC6-3D74F2630002}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{A0032806-AF46-4771-AF35-9AE9A7F50D9B}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{A0D7BCE1-774C-11D4-8923-00902712B9B0}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{A0D7BCE6-774C-11D4-8923-00902712B9B0}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{A0D7BCE8-774C-11D4-8923-00902712B9B0}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{A1A0E7C9-8F3B-427C-91CD-260E51921EAF}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{A2B01EC5-C02D-4482-9925-7DBF21886FB4}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{A6FACBEE-D12D-461C-8E7B-DC17E9A3DCE0}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{A897A577-4394-4D17-9EC9-06495F06EF5C}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{A8B48397-6007-4D29-816C-FC0ED3B5DFDB}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{AAD128C2-471C-11D2-90F7-0E039A000000}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{AAD128C4-471C-11D2-90F7-0E039A000000}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{AAD128C5-471C-11D2-90F7-0E039A000000}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{AAD128D1-471C-11D2-90F7-0E039A000000}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{AAD128D5-471C-11D2-90F7-0E039A000000}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{AAD128D8-471C-11D2-90F7-0E039A000000}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{AAD128DA-471C-11D2-90F7-0E039A000000}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{ABE8EA19-1289-4C9E-8481-5944A55A796E}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{B17DDF4C-9021-4C65-8E75-92C48A83040C}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{B2B35180-3B5A-11D6-8930-00902712B9B0}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{B2B35182-3B5A-11D6-8930-00902712B9B0}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{B6BFA3CE-5A93-4AAF-A71E-5583E8D4FB85}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{B92EF121-85F8-11D1-811C-00600817C3C9}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{B92EF122-85F8-11D1-811C-00600817C3C9}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{B92EF123-85F8-11D1-811C-00600817C3C9}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{B9F665CA-BB48-4632-B660-A8D12BE9BA59}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{BD6484A2-24E0-11D0-8A58-0800099D420E}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{BD6484A4-24E0-11D0-8A58-0800099D420E}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{BF46C1C3-418B-11D1-811C-00600817C3C9}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{BF93C27D-AC3A-444E-B840-999EDE20DB56}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{C0521388-2266-11D4-A66D-00AA00BA6958}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{C1F400A0-3F08-11D3-9F0B-006008039E37}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{C6C21888-4BD3-11D6-8930-00902712B9B0}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{C6C21889-4BD3-11D6-8930-00902712B9B0}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{C6C2188A-4BD3-11D6-8930-00902712B9B0}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{C6C2188B-4BD3-11D6-8930-00902712B9B0}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{CA02BA1F-9FE7-4CD4-A4F5-2769C5B0FB87}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{CA33C942-0B04-4ADE-A466-82AB2F8B601E}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{CEF4D40F-ACA5-40BA-8F3B-161A594A1A39}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{D6C40C41-ADB3-11D3-891E-00902712B9B0}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{D6C40C44-ADB3-11D3-891E-00902712B9B0}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{D881D0B9-1353-473E-B2D8-82B8917B2DB3}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{D9994750-50B0-4057-92A9-D6B3C0B3FBAF}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{DA2C40C8-ECC6-11D4-B09C-00D0B76B128E}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{E0FECF2A-1FE7-492F-B678-659A53934426}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{E6858E01-F3DD-11D2-87DB-00C0F02D00F6}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{E771DD99-7352-4F30-9F6D-6A30F53D2715}",0x10001,03,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{E961F5EC-E3E4-4154-A6C8-5C166B543C6A}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{E9F85E82-B4D9-44D8-A44D-F832638E5062}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{EAAE9DB5-AE50-4D2D-8CAE-72EA5305A797}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{EC1E2FAF-44C9-4E95-A9E2-94D7F6802ED5}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{ECFBE6E0-1AC8-11D4-8501-00A0CC5D1F63}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{EFEE43D6-BFE5-44B0-8063-AC3B2966AB2C}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{F671AC2D-A5E6-4BBE-A96E-B848A8F9C4AF}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{F8388A40-D5BB-11D0-BE5A-0080C706568E}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{FE47CC82-A8B8-4330-8DF9-6947CAEA65E6}",0x10001,01,00,00,00
+hklm,"SOFTWARE\Adobe\Audition\PlugIn\DirectX","{FEE0D121-1CD3-11D3-A9CA-00AA00C7EF04}",0x10001,01,00,00,00
+
+hklm,"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{86EF9FC4-F209-4520-B7E1-C7FF0EEBDFFF}","AuthorizedCDFPrefix",,""
+hklm,"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{86EF9FC4-F209-4520-B7E1-C7FF0EEBDFFF}","Comments",,""
+hklm,"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{86EF9FC4-F209-4520-B7E1-C7FF0EEBDFFF}","COMPAN",,"Legend (Beijing) Limited"
+hklm,"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{86EF9FC4-F209-4520-B7E1-C7FF0EEBDFFF}","Contact",,"Customer Support"
+hklm,"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{86EF9FC4-F209-4520-B7E1-C7FF0EEBDFFF}","DisplayName",,"Adobe Audition 1.5"
+hklm,"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{86EF9FC4-F209-4520-B7E1-C7FF0EEBDFFF}","DisplayVersion",,"1.5"
+hklm,"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{86EF9FC4-F209-4520-B7E1-C7FF0EEBDFFF}","EstimatedSize",0x10001,1D,A6,00,00
+hklm,"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{86EF9FC4-F209-4520-B7E1-C7FF0EEBDFFF}","Language",0x10001,00,00,00,00
+hklm,"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{86EF9FC4-F209-4520-B7E1-C7FF0EEBDFFF}","NAME",,"绿色下载站"
+hklm,"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{86EF9FC4-F209-4520-B7E1-C7FF0EEBDFFF}","NoRemove",0x10001,01,00,00,00
+hklm,"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{86EF9FC4-F209-4520-B7E1-C7FF0EEBDFFF}","NoRepair",0x10001,01,00,00,00
+hklm,"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{86EF9FC4-F209-4520-B7E1-C7FF0EEBDFFF}","Publisher",,"Adobe Systems"
+hklm,"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{86EF9FC4-F209-4520-B7E1-C7FF0EEBDFFF}","Serial",,"976583871250000048703527"
+hklm,"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{86EF9FC4-F209-4520-B7E1-C7FF0EEBDFFF}","Size",,""
+hklm,"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{86EF9FC4-F209-4520-B7E1-C7FF0EEBDFFF}","URLInfoAbout",,"http://www.adobe.com"
+hklm,"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{86EF9FC4-F209-4520-B7E1-C7FF0EEBDFFF}","URLUpdateInfo",,"http://www.adobe.com/audition/"
+hklm,"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{86EF9FC4-F209-4520-B7E1-C7FF0EEBDFFF}","Version",0x10001,00,00,05,01
+hklm,"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{86EF9FC4-F209-4520-B7E1-C7FF0EEBDFFF}","VersionMajor",0x10001,01,00,00,00
+hklm,"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{86EF9FC4-F209-4520-B7E1-C7FF0EEBDFFF}","VersionMinor",0x10001,05,00,00,00
+
+hklm,"SYSTEM\CurrentControlSet\Services\pfc","DisplayName",,"Padus ASPI Shell"
+hklm,"SYSTEM\CurrentControlSet\Services\pfc","ErrorControl",0x10001,01,00,00,00
+hklm,"SYSTEM\CurrentControlSet\Services\pfc","Group",,"filter"
+hklm,"SYSTEM\CurrentControlSet\Services\pfc","ImagePath",0x20000,"system32\drivers\pfc.sys"
+hklm,"SYSTEM\CurrentControlSet\Services\pfc","Start",0x10001,03,00,00,00
+hklm,"SYSTEM\CurrentControlSet\Services\pfc","Type",0x10001,01,00,00,00
+
+hklm,"SYSTEM\CurrentControlSet\Services\pfc\Security","Security",0x1,01,00,14,80,90,00,00,00,9C,00,00,00,14,00,00,00,30,00,00,00,02,\
+  00,1C,00,01,00,00,00,02,80,14,00,FF,01,0F,00,01,01,00,00,00,00,00,01,00,00,\
+  00,00,02,00,60,00,04,00,00,00,00,00,14,00,FD,01,02,00,01,01,00,00,00,00,00,\
+  05,12,00,00,00,00,00,18,00,FF,01,0F,00,01,02,00,00,00,00,00,05,20,00,00,00,\
+  20,02,00,00,00,00,14,00,8D,01,02,00,01,01,00,00,00,00,00,05,0B,00,00,00,00,\
+  00,18,00,FD,01,02,00,01,02,00,00,00,00,00,05,20,00,00,00,23,02,00,00,01,01,\
+  00,00,00,00,00,05,12,00,00,00,01,01,00,00,00,00,00,05,12,00,00,00
+
+[Strings]

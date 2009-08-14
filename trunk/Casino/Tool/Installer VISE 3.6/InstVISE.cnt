@@ -1,0 +1,209 @@
+:Base InstVISE.hlp
+:Title Installer VISE Help
+:Index Installer VISE Help =simple.hlp
+1 Title Page=HID_TITLE_PAGE
+1 Legal Stuff=HID_LEGAL_STUFF
+1 Introduction
+2 Welcome=HID_WELCOME
+2 Installer VISE Overview=HID_INSTALLER_VISE_OVERVIEW
+2 Creating Your First Installation=HID_CREATING_YOUR_FIRST_INSTALLATION
+1 Installation Topics
+2 Using Action Items=HID_USING_ACTION_ITEMS
+2 Using External Code=HID_USING_EXTERNAL_CODE
+2 Using Billboards=HID_USING_BILLBOARDS
+2 Localizing Your Installer=HID_LOCALIZING_YOUR_INSTALLER
+2 Creating Packages and Assigning Files=HID_CREATING_PACKAGES
+2 Designing Your Installer=HID_DESIGNING_YOUR_INSTALLER
+2 Copying an Installation to Floppy Disks=HID_COPYING_AN_INSTALLATION_TO_FLOPPY_DISKS
+2 Adding Files and Folders to an Archive=HID_ADDING_FILES_AND_FOLDERS_TO_AN_ARCHIVE
+2 Setting Installation Properties=HID_SETTING_INSTALLATION_PROPERTIES
+2 Setting Language Properties=HID_SETTING_LANGUAGE_PROPERTIES
+2 Building an Installation=HID_BUILDING_AN_INSTALLATION
+2 Testing an Installation=HID_TESTING_AN_INSTALLATION
+2 Updating an Installation=HID_UPDATING_AN_INSTALLATION
+2 Generating a Batch File=HID_GENERATING_A_BATCH_FILE
+2 Searching for Items=HID_SEARCHING_FOR_ITEMS
+2 Creating Loops=HID_CREATING_LOOPS
+2 Active Web Installers=HID_ACTIVEWEBINSTALLERS
+2 Build Directives=HID_BUILD_DIRECTIVES
+2 Build Targets=HID_BUILD_TARGETS
+2 Selling with the eSellerate system=HID_SELLING_WITH_ESELLERATE
+2 Snapshot Wizard=HID_SNAPSHOT_WIZARD
+2 Customizing the Archive Window=HID_CUSTOMIZING_ARCHIVE_WINDOW
+2 Display Screen Actions=HID_DISPLAY_SCREEN_ACTIONS
+1 Reference
+2 Menu Reference
+3 File Menu Commands
+4 File Menu Commands=HID_FILE_MENU_COMMANDS
+4 New=HID_FILE_NEW
+4 Open=HID_FILE_OPEN
+4 Save=HID_FILE_SAVE
+4 Save As=HID_FILE_SAVE_AS
+4 AutoCreate Updater=HID_FILE_AUTOCREATE_UPDATER
+4 Installer Properties=HID_FILE_INSTALLER_PROPERTIES
+4 Language Properties=HID_FILE_LANGUAGE_PROPERTIES
+4 Build Installer=HID_FILE_BUILD_INSTALLER
+4 Test Installer=HID_FILE_TEST_INSTALLER
+4 Batch Build=HID_FILE_BATCH_BUILD
+4 Reports=HID_FILE_REPORTS
+4 Update Archive=HID_FILE_UPDATE_ARCHIVE
+4 Create Batch File=HID_FILE_CREATE_BATCH_FILE
+4 Exit=HID_FILE_EXIT
+3 Edit Menu Commands
+4 Edit Menu Commands=HID_EDIT_MENU_COMMANDS
+4 Source Directories=HID_EDIT_SOURCE_DIRECTORIES
+4 Find=HID_EDIT_FIND
+4 Update=HID_EDIT_UPDATE
+4 Extract=HID_EDIT_EXTRACT
+4 Delete=HID_EDIT_DELETE
+4 Duplicate=HID_EDIT_DUPLICATE
+4 Properties=HID_EDIT_PROPERTIES
+4 Create Program Item(s)=HID_EDIT_PROGRAM_ITEMS
+4 Create Shortcut(s)=HID_EDIT_CREATE_SHORTCUTS
+3 View Menu Commands
+4 View Menu Commands=HID_VIEW_MENU_COMMANDS
+4 Standard Toolbar=HID_VIEW_STANDARD_TOOLBAR
+4 Action Items Toolbar #1=HID_VIEW_ACTION_ITEMS_TOOLBAR1
+4 Action Items Toolbar #2=HID_VIEW_ACTION_ITEMS_TOOLBAR2
+4 Build Toolbar=HID_VIEW_BUILD_TOOLBAR
+4 Status Bar=HID_VIEW_STATUSBAR
+3 Screens Menu Commands
+4 Screens Menu Commands=HID_SCREENS_MENU_COMMANDS
+4 Background Window=HID_SCREENS_BGWINDOW
+4 Splash Screen=HID_SCREENS_SPLASH
+4 Welcome Screen=HID_SCREENS_WELCOME
+4 Read Me Message=HID_SCREENS_README1
+4 Requirements Screen=HID_SCREENS_REQUIREMENTS
+4 License Agreement=HID_SCREENS_LICENSE_AGREEMENT
+4 Verify Password=HID_SCREENS_VERIFY_PASSWORD
+4 Registration Information=HID_SCREENS_REGISTRATION
+4 Select Install Directory=HID_SCREENS_INSTALL_DIRECTORY
+4 Select Install Type=HID_SCREENS_INSTALL_TYPE
+4 Select Components=HID_SCREENS_SELECT_COMPONENTS
+4 Select Program Folder=HID_SCREENS_PROGRAM_FOLDER
+4 Ready To Install Message=HID_SCREENS_READY_TO_INSTALL
+4 Read Me Message=HID_SCREENS_README2
+4 Finished Message=HID_SCREENS_FINISHED
+4 Finished Message 2=HID_SCREENS_FINISHED2
+3 Add Menu Commands
+4 Add Menu Commands=HID_ADD_MENU_COMMANDS
+4 Items=HID_ADD_ITEMS
+4 Package=HID_ADD_PACKAGE
+4 Sub Package=HID_ADD_SUBPACKAGE
+3 Archive Menu Commands
+4 Archive Menu Commands=HID_ARCHIVE_MENU_COMMANDS
+4 Build Directives=HID_ARCHIVE_BUILD_DIRECTIVES
+4 Build Targets=HID_ARCHIVE_BUILD_TARGETS
+4 Billboards=HID_ARCHIVE_BILLBOARDS
+3 Tools Menu Commands
+4 Tools Menu Commands=HID_TOOL_MENU_COMMANDS
+4 Archive Wizard=HID_TOOLS_ARCHIVE_WIZARD
+4 Visual Basic Project Wizard=HID_TOOLS_VBWIZARD
+4 Snapshot Wizard=HID_TOOLS_SNAPSHOT
+4 Dependency Watcher=HID_TOOLS_WATCHER
+4 Dependency Walker=HID_TOOLS_WALKER
+4 Verify Archive=HID_TOOLS_VERIFY
+4 Purchase/Check For Update/Renew/Activate=HID_TOOLS_PURCHASEVISE
+3 Internet Menu Commands
+4 Internet Menu Commands=HID_INTERNET_MENU_COMMANDS
+4 Download Sites=HID_INTERNET_DOWNLOADSITES
+4 File Groups=HID_INTERNET_FILEGROUPS
+3 Layout Menu Commands
+4 Standard Layout=HID_LAYOUT_STANDARD
+4 Customize=HID_LAYOUT_CUSTOMIZE
+3 Help Menu Commands
+4 Help Menu Commands=HID_HELP_MENU_COMMANDS
+4 Help Topics=HID_HELP_TOPICS
+4 About Installer VISE=HID_HELP_ABOUT
+2 Item Reference
+3 Archive Items=HID_ARCHIVE_ITEMS
+3 Billboard=HID_BILLBOARD
+3 Call External Code=HID_CALL_EXTERNAL_CODE
+3 Comment=HID_COMMENT
+3 Copy=HID_COPY
+3 Delete=HID_DELETE
+3 DirectX Check=HID_DIRECTX_CHECK
+3 Disk Prompt=HID_DISKPROMPT
+3 Display Screen=HID_DISPLAYSCREEN
+3 Download File=HID_DOWNLOADFILE
+3 Edit AUTOEXEC.BAT Item=HID_EDIT_AUTOEXECBAT
+3 Edit CONFIG.SYS Item=HID_EDIT_CONFIGSYS
+3 Edit Text File Item=HID_EDIT_TEXT_FILE
+3 Files=HID_FILE
+3 Find=HID_FIND
+3 Folder=HID_FOLDER
+3 Goto Item=HID_GOTO
+3 Include .VCT File Item=HID_INCLUDEVCT
+3 Ini File Entry=HID_INI_ENTRY
+3 Input Box=HID_INPUTBOX
+3 Label Item=HID_LABEL
+3 Location Prompt=HID_LOCATIONPROMPT
+3 Message Box=HID_MESSAGEBOX
+3 Move=HID_MOVE
+3 Open Internet Address=HID_OPENURL
+3 Package=HID_PACKAGE
+3 Program Item=HID_PROGRAM_ITEM
+3 QuickTime Check=HID_QUICKTIMECHECK
+3 Register File Type=HID_REGISTERFILETYPE
+3 Registry Entry=HID_REG_ENTRY
+3 Rename=HID_RENAME
+3 Run Application=HID_RUNAPPLICATION
+3 Shortcut=HID_SHORTCUT
+3 Show/Hide Progress=HID_SHOWHIDEPROGRESS
+3 Split Path=HID_SPLITPATH
+3 Stop=HID_STOP
+3 System Service=HID_SYSTEM_SERVICES
+3 Trace=HID_TRACE
+3 Update File=HID_UPDATE_FILE
+3 Variable Item=HID_VARIABLE
+3 Common Property Pages
+4 Packages Property Page=HID_PACKAGES_PAGE
+4 System Property Page=HID_SYSTEM_PAGE
+4 Languages Property Page=HID_LANGUAGES_PAGE
+4 Actions Property Page=HID_ACTIONS_PAGE
+4 Build Directives Property Page=HID_BUILDDIRECTIVES_PAGE
+4 Comments Property Page=HID_COMMENTS_PAGE
+4 Before Property Page=HID_BEFORE_PAGE
+4 After Property Page=HID_AFTER_PAGE
+2 Variable Reference
+3 Runtime Variables=HID_RUNTIME_VARS
+3 %ProductName%=HID_VARS_PRODUCTNAME
+3 %DefProgramFolder%=HID_VARS_DEFPROGRAMFOLDER
+3 %UserName%=HID_VARS_USERNAME
+3 %Organization%=HID_VARS_ORGANIZATION
+3 %SerialNumber%=HID_VARS_SERIALNUMBER
+3 %WinDir%=HID_VARS_WINDIR
+3 %WinDrive%=HID_VARS_WINDRIVE
+3 %SysDir%=HID_VARS_SYSDIR
+3 %SysDrive%=HID_VARS_SYSDRIVE
+3 %SrcDir%=HID_VARS_SRCDIR
+3 %SrcDrive%=HID_VARS_SRCDRIVE
+3 %TargetDir%=HID_VARS_TARGETDIR
+3 %TargetDirShort%=HID_VARS_TARGETDIRSHORT
+3 %TargetDrive%=HID_VARS_TARGETDRIVE
+3 %TempDir%=HID_VARS_TEMPDIR
+3 %TempDrive%=HID_VARS_TEMPDRIVE
+3 %Browser%=HID_VARS_BROWSER
+3 %Desktop%=HID_VARS_DESKTOP
+3 %StartMenu%=HID_VARS_STARTMENU
+3 %Programs%=HID_VARS_PROGRAMS
+3 %StartUp%=HID_VARS_STARTUP
+3 %Fonts%=HID_VARS_FONTS
+3 %ProgramFilesDir%=HID_VARS_PROGRAMFILESDIR
+3 %CommonFilesDir%=HID_VARS_COMMONFILESDIR
+3 %CommonDesktop%=HID_VARS_COMMONDESKTOP
+3 %CommonStartMenu%=HID_VARS_COMMONSTARTMENU
+3 %CommonPrograms%=HID_VARS_COMMONPROGRAMS
+3 %CommonStartUp%=HID_VARS_COMMONSTARTUP
+3 %CDROMDrive%=HID_VARS_CDROMDRIVE
+3 %Restart%=HID_VARS_RESTART
+3 %SetupType%=HID_VARS_SETUPTYPE
+1 License Agreement
+2 Important! Read This First=HID_ORDERING_INFORMATION
+2 Sotware License Agreement=HID_LICENSE_AGREEMENT
+1 Ordering Information
+2 Order Form=HID_ORDER_FORM
+2 Registering Installer VISE=HID_REGISTERING_VISE
+2 Registration Form=HID_REGISTRATION_FORM
+1 Technical Support
+2 Technical Support=HID_TECHNICAL_SUPPORT

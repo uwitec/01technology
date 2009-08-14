@@ -1,0 +1,1322 @@
+﻿<flash_project name="Casino" version="1">
+    <project_folder name="org" expanded="true">
+        <project_folder name="aswing" expanded="false">
+            <project_file path="./org/aswing/AbstractButton.as" filetype="as" />
+            <project_file path="./org/aswing/AbstractCellEditor.as" filetype="as" />
+            <project_file path="./org/aswing/AbstractListCell.as" filetype="as" />
+            <project_file path="./org/aswing/AbstractListModel.as" filetype="as" />
+            <project_file path="./org/aswing/AbstractTabbedPane.as" filetype="as" />
+            <project_file path="./org/aswing/ASColor.as" filetype="as" />
+            <project_file path="./org/aswing/ASFont.as" filetype="as" />
+            <project_file path="./org/aswing/AssetBackground.as" filetype="as" />
+            <project_file path="./org/aswing/AssetIcon.as" filetype="as" />
+            <project_file path="./org/aswing/AssetPane.as" filetype="as" />
+            <project_file path="./org/aswing/AsWingConstants.as" filetype="as" />
+            <project_file path="./org/aswing/AsWingManager.as" filetype="as" />
+            <project_file path="./org/aswing/AsWingUtils.as" filetype="as" />
+            <project_file path="./org/aswing/AttachIcon.as" filetype="as" />
+            <project_file path="./org/aswing/AWSprite.as" filetype="as" />
+            <project_file path="./org/aswing/AWTextField.as" filetype="as" />
+            <project_file path="./org/aswing/Border.as" filetype="as" />
+            <project_file path="./org/aswing/BorderLayout.as" filetype="as" />
+            <project_file path="./org/aswing/BoundedRangeModel.as" filetype="as" />
+            <project_file path="./org/aswing/Box.as" filetype="as" />
+            <project_file path="./org/aswing/BoxLayout.as" filetype="as" />
+            <project_file path="./org/aswing/ButtonGroup.as" filetype="as" />
+            <project_file path="./org/aswing/ButtonModel.as" filetype="as" />
+            <project_file path="./org/aswing/Cell.as" filetype="as" />
+            <project_file path="./org/aswing/CellEditor.as" filetype="as" />
+            <project_file path="./org/aswing/CellPane.as" filetype="as" />
+            <project_file path="./org/aswing/CenterLayout.as" filetype="as" />
+            <project_file path="./org/aswing/ComboBoxEditor.as" filetype="as" />
+            <project_file path="./org/aswing/Component.as" filetype="as" />
+            <project_file path="./org/aswing/Container.as" filetype="as" />
+            <project_file path="./org/aswing/ContainerOrderFocusTraversalPolicy.as" filetype="as" />
+            <project_file path="./org/aswing/Cursor.as" filetype="as" />
+            <project_file path="./org/aswing/CursorManager.as" filetype="as" />
+            <project_file path="./org/aswing/Decorator.as" filetype="as" />
+            <project_file path="./org/aswing/DefaultBoundedRangeModel.as" filetype="as" />
+            <project_file path="./org/aswing/DefaultButtonModel.as" filetype="as" />
+            <project_file path="./org/aswing/DefaultCheckBoxCellEditor.as" filetype="as" />
+            <project_file path="./org/aswing/DefaultComboBoxCellEditor.as" filetype="as" />
+            <project_file path="./org/aswing/DefaultComboBoxEditor.as" filetype="as" />
+            <project_file path="./org/aswing/DefaultListCell.as" filetype="as" />
+            <project_file path="./org/aswing/DefaultListCellFactory.as" filetype="as" />
+            <project_file path="./org/aswing/DefaultListSelectionModel.as" filetype="as" />
+            <project_file path="./org/aswing/DefaultNumberTextFieldCellEditor.as" filetype="as" />
+            <project_file path="./org/aswing/DefaultSingleSelectionModel.as" filetype="as" />
+            <project_file path="./org/aswing/DefaultTextFieldCellEditor.as" filetype="as" />
+            <project_file path="./org/aswing/EditableComponent.as" filetype="as" />
+            <project_file path="./org/aswing/EmptyFont.as" filetype="as" />
+            <project_file path="./org/aswing/EmptyLayout.as" filetype="as" />
+            <project_file path="./org/aswing/FlowLayout.as" filetype="as" />
+            <project_file path="./org/aswing/FocusManager.as" filetype="as" />
+            <project_file path="./org/aswing/FocusTraversalPolicy.as" filetype="as" />
+            <project_file path="./org/aswing/GeneralListCellFactory.as" filetype="as" />
+            <project_file path="./org/aswing/GradientBackground.as" filetype="as" />
+            <project_file path="./org/aswing/GridLayout.as" filetype="as" />
+            <project_file path="./org/aswing/GroundDecorator.as" filetype="as" />
+            <project_file path="./org/aswing/Icon.as" filetype="as" />
+            <project_file path="./org/aswing/Insets.as" filetype="as" />
+            <project_file path="./org/aswing/JAccordion.as" filetype="as" />
+            <project_file path="./org/aswing/JAdjuster.as" filetype="as" />
+            <project_file path="./org/aswing/JAttachPane.as" filetype="as" />
+            <project_file path="./org/aswing/JButton.as" filetype="as" />
+            <project_file path="./org/aswing/JCheckBox.as" filetype="as" />
+            <project_file path="./org/aswing/JCheckBoxMenuItem.as" filetype="as" />
+            <project_file path="./org/aswing/JColorChooser.as" filetype="as" />
+            <project_file path="./org/aswing/JComboBox.as" filetype="as" />
+            <project_file path="./org/aswing/JFrame.as" filetype="as" />
+            <project_file path="./org/aswing/JLabel.as" filetype="as" />
+            <project_file path="./org/aswing/JLabelButton.as" filetype="as" />
+            <project_file path="./org/aswing/JList.as" filetype="as" />
+            <project_file path="./org/aswing/JLoadPane.as" filetype="as" />
+            <project_file path="./org/aswing/JMenu.as" filetype="as" />
+            <project_file path="./org/aswing/JMenuBar.as" filetype="as" />
+            <project_file path="./org/aswing/JMenuItem.as" filetype="as" />
+            <project_file path="./org/aswing/JOptionPane.as" filetype="as" />
+            <project_file path="./org/aswing/JPanel.as" filetype="as" />
+            <project_file path="./org/aswing/JPopup.as" filetype="as" />
+            <project_file path="./org/aswing/JPopupMenu.as" filetype="as" />
+            <project_file path="./org/aswing/JProgressBar.as" filetype="as" />
+            <project_file path="./org/aswing/JRadioButton.as" filetype="as" />
+            <project_file path="./org/aswing/JRadioButtonMenuItem.as" filetype="as" />
+            <project_file path="./org/aswing/JRootPane.as" filetype="as" />
+            <project_file path="./org/aswing/JScrollBar.as" filetype="as" />
+            <project_file path="./org/aswing/JScrollPane.as" filetype="as" />
+            <project_file path="./org/aswing/JSeparator.as" filetype="as" />
+            <project_file path="./org/aswing/JSharedToolTip.as" filetype="as" />
+            <project_file path="./org/aswing/JSlider.as" filetype="as" />
+            <project_file path="./org/aswing/JSpacer.as" filetype="as" />
+            <project_file path="./org/aswing/JSplitPane.as" filetype="as" />
+            <project_file path="./org/aswing/JTabbedPane.as" filetype="as" />
+            <project_file path="./org/aswing/JTable.as" filetype="as" />
+            <project_file path="./org/aswing/JTextArea.as" filetype="as" />
+            <project_file path="./org/aswing/JTextComponent.as" filetype="as" />
+            <project_file path="./org/aswing/JTextField.as" filetype="as" />
+            <project_file path="./org/aswing/JToggleButton.as" filetype="as" />
+            <project_file path="./org/aswing/JToolBar.as" filetype="as" />
+            <project_file path="./org/aswing/JToolTip.as" filetype="as" />
+            <project_file path="./org/aswing/JTree.as" filetype="as" />
+            <project_file path="./org/aswing/JViewport.as" filetype="as" />
+            <project_file path="./org/aswing/JWindow.as" filetype="as" />
+            <project_file path="./org/aswing/KeyboardManager.as" filetype="as" />
+            <project_file path="./org/aswing/KeyMap.as" filetype="as" />
+            <project_file path="./org/aswing/KeySequence.as" filetype="as" />
+            <project_file path="./org/aswing/KeyStroke.as" filetype="as" />
+            <project_file path="./org/aswing/KeyType.as" filetype="as" />
+            <project_file path="./org/aswing/LayoutManager.as" filetype="as" />
+            <project_file path="./org/aswing/ListCell.as" filetype="as" />
+            <project_file path="./org/aswing/ListCellFactory.as" filetype="as" />
+            <project_file path="./org/aswing/ListModel.as" filetype="as" />
+            <project_file path="./org/aswing/ListSelectionModel.as" filetype="as" />
+            <project_file path="./org/aswing/LoadIcon.as" filetype="as" />
+            <project_file path="./org/aswing/LookAndFeel.as" filetype="as" />
+            <project_file path="./org/aswing/MenuElement.as" filetype="as" />
+            <project_file path="./org/aswing/MenuSelectionManager.as" filetype="as" />
+            <project_file path="./org/aswing/MutableListModel.as" filetype="as" />
+            <project_file path="./org/aswing/Orientable.as" filetype="as" />
+            <project_file path="./org/aswing/RepaintManager.as" filetype="as" />
+            <project_file path="./org/aswing/ScrollPaneLayout.as" filetype="as" />
+            <project_file path="./org/aswing/SingleSelectionModel.as" filetype="as" />
+            <project_file path="./org/aswing/SoftBox.as" filetype="as" />
+            <project_file path="./org/aswing/SoftBoxLayout.as" filetype="as" />
+            <project_file path="./org/aswing/SolidBackground.as" filetype="as" />
+            <project_file path="./org/aswing/ToggleButtonModel.as" filetype="as" />
+            <project_file path="./org/aswing/UIDefaults.as" filetype="as" />
+            <project_file path="./org/aswing/UIManager.as" filetype="as" />
+            <project_file path="./org/aswing/VectorListModel.as" filetype="as" />
+            <project_file path="./org/aswing/Viewportable.as" filetype="as" />
+            <project_file path="./org/aswing/ViewportLayout.as" filetype="as" />
+            <project_file path="./org/aswing/WindowLayout.as" filetype="as" />
+            <project_file path="./org/aswing/WindowOrderFocusTraversalPolicy.as" filetype="as" />
+        </project_folder>
+        <project_folder name="god" expanded="true">
+            <project_folder name="Common" expanded="false">
+                <project_folder name="Operation" expanded="false">
+                    <project_file path="./org/god/Common/Operation/OperationTypeCell.as" filetype="as" />
+                    <project_file path="./org/god/Common/Operation/OperationTable.as" filetype="as" />
+                    <project_file path="./org/god/Common/Operation/StringTableDef.as" filetype="as" />
+                    <project_file path="./org/god/Common/Operation/OperationUtil.as" filetype="as" />
+                    <project_file path="./org/god/Common/Operation/OPDetailTableCell.as" filetype="as" />
+                </project_folder>
+                <project_folder name="BetHistory" expanded="false">
+                    <project_folder name="GameModule" expanded="true">
+                        <project_folder name="Common" expanded="false">
+                            <project_file path="./org/god/Common/BetHistory/GameModule/Common/BaseGameEndView.as" filetype="as" />
+                            <project_file path="./org/god/Common/BetHistory/GameModule/Common/BaseBattleGameEndView.as" filetype="as" />
+                        </project_folder>
+                        <project_folder name="B_Hoe" expanded="false">
+                            <project_file path="./org/god/Common/BetHistory/GameModule/B_Hoe/GameEndView.as" filetype="as" />
+                            <project_file path="./org/god/Common/BetHistory/GameModule/B_Hoe/CardControl.as" filetype="as" />
+                            <project_file path="./org/god/Common/BetHistory/GameModule/B_Hoe/tagCardItem.as" filetype="as" />
+                        </project_folder>
+                        <project_folder name="B_BlackJack" expanded="false">
+                            <project_file path="./org/god/Common/BetHistory/GameModule/B_BlackJack/GameEndView.as" filetype="as" />
+                            <project_file path="./org/god/Common/BetHistory/GameModule/B_BlackJack/CardControl.as" filetype="as" />
+                        </project_folder>
+                        <project_folder name="B_GoldFlower" expanded="false">
+                            <project_file path="./org/god/Common/BetHistory/GameModule/B_GoldFlower/GameEndView.as" filetype="as" />
+                            <project_file path="./org/god/Common/BetHistory/GameModule/B_GoldFlower/CardControl.as" filetype="as" />
+                        </project_folder>
+                        <project_folder name="B_Land" expanded="false">
+                            <project_file path="./org/god/Common/BetHistory/GameModule/B_Land/GameEndView.as" filetype="as" />
+                            <project_file path="./org/god/Common/BetHistory/GameModule/B_Land/CardControl.as" filetype="as" />
+                            <project_file path="./org/god/Common/BetHistory/GameModule/B_Land/tagCardItem.as" filetype="as" />
+                        </project_folder>
+                        <project_folder name="B_ShowHand" expanded="false">
+                            <project_file path="./org/god/Common/BetHistory/GameModule/B_ShowHand/GameEndView.as" filetype="as" />
+                            <project_file path="./org/god/Common/BetHistory/GameModule/B_ShowHand/CardControl.as" filetype="as" />
+                        </project_folder>
+                        <project_folder name="B_Sparrow" expanded="false">
+                            <project_file path="./org/god/Common/BetHistory/GameModule/B_Sparrow/GameEndView.as" filetype="as" />
+                            <project_file path="./org/god/Common/BetHistory/GameModule/B_Sparrow/TableSparrow.as" filetype="as" />
+                            <project_file path="./org/god/Common/BetHistory/GameModule/B_Sparrow/WeaveSparrow.as" filetype="as" />
+                            <project_file path="./org/god/Common/BetHistory/GameModule/B_Sparrow/SparrowResource.as" filetype="as" />
+                            <project_file path="./org/god/Common/BetHistory/GameModule/B_Sparrow/SparrowListImage.as" filetype="as" />
+                        </project_folder>
+                        <project_folder name="B_UncoverPig" expanded="false">
+                            <project_file path="./org/god/Common/BetHistory/GameModule/B_UncoverPig/GameEndView.as" filetype="as" />
+                        </project_folder>
+                        <project_folder name="B_Upgrade" expanded="false">
+                            <project_file path="./org/god/Common/BetHistory/GameModule/B_Upgrade/GameEndView.as" filetype="as" />
+                            <project_file path="./org/god/Common/BetHistory/GameModule/B_Upgrade/CardControl.as" filetype="as" />
+                            <project_file path="./org/god/Common/BetHistory/GameModule/B_Upgrade/tagCardItem.as" filetype="as" />
+                        </project_folder>
+                        <project_folder name="B_SiChuan_Land" expanded="true">
+                            <project_file path="./org/god/Common/BetHistory/GameModule/B_SiChuan_Land/CardControl.as" filetype="as" />
+                            <project_file path="./org/god/Common/BetHistory/GameModule/B_SiChuan_Land/GameEndView.as" filetype="as" />
+                            <project_file path="./org/god/Common/BetHistory/GameModule/B_SiChuan_Land/tagCardItem.as" filetype="as" />
+                        </project_folder>
+                    </project_folder>
+                    <project_file path="./org/god/Common/BetHistory/BetHistoryTable.as" filetype="as" />
+                    <project_file path="./org/god/Common/BetHistory/StringTableDef.as" filetype="as" />
+                    <project_file path="./org/god/Common/BetHistory/BHDetailTableCell.as" filetype="as" />
+                    <project_file path="./org/god/Common/BetHistory/BHDetailTableCellBtnEvent.as" filetype="as" />
+                    <project_file path="./org/god/Common/BetHistory/BetHistoryTableSorter.as" filetype="as" />
+                    <project_file path="./org/god/Common/BetHistory/BHGameResultTableCell.as" filetype="as" />
+                    <project_file path="./org/god/Common/BetHistory/BHGameRoundDetailDlg.as" filetype="as" />
+                    <project_file path="./org/god/Common/BetHistory/BHGameRoundDetailBetScoreTable.as" filetype="as" />
+                    <project_file path="./org/god/Common/BetHistory/BHGameRoundDetailBetScoreTableSorter.as" filetype="as" />
+                    <project_file path="./org/god/Common/BetHistory/IBetHistoryResource.as" filetype="as" />
+                </project_folder>
+                <project_folder name="Chart" expanded="false">
+                    <project_file path="./org/god/Common/Chart/ChartViewOneTable.as" filetype="as" />
+                    <project_file path="./org/god/Common/Chart/ChartViewTwoTable.as" filetype="as" />
+                    <project_file path="./org/god/Common/Chart/StringTableDef.as" filetype="as" />
+                    <project_file path="./org/god/Common/Chart/ChartViewOneTableTopHeader.as" filetype="as" />
+                    <project_file path="./org/god/Common/Chart/BHDetailTableCell.as" filetype="as" />
+                    <project_file path="./org/god/Common/Chart/BHDetailTableCellBtnEvent.as" filetype="as" />
+                    <project_file path="./org/god/Common/Chart/ChartViewOneDataTableCell.as" filetype="as" />
+                    <project_file path="./org/god/Common/Chart/ChartViewTwoTableSorter.as" filetype="as" />
+                </project_folder>
+                <project_folder name="Media" expanded="false">
+                    <project_file path="./org/god/Common/Media/MediaPlayer.as" filetype="as" />
+                    <project_file path="./org/god/Common/Media/SoundPlayer.as" filetype="as" />
+                    <project_file path="./org/god/Common/Media/SoundManager.as" filetype="as" />
+                    <project_file path="./org/god/Common/Media/QuietEvent.as" filetype="as" />
+                </project_folder>
+                <project_file path="./org/god/Common/AppDisplayState.as" filetype="as" />
+                <project_file path="./org/god/Common/ClassLoader.as" filetype="as" />
+                <project_file path="./org/god/Common/enServiceStatus.as" filetype="as" />
+                <project_file path="./org/god/Common/GenGUID.as" filetype="as" />
+                <project_file path="./org/god/Common/MD5.as" filetype="as" />
+                <project_file path="./org/god/Common/Memory.as" filetype="as" />
+                <project_file path="./org/god/Common/TimerMap.as" filetype="as" />
+                <project_file path="./org/god/Common/MathFunction.as" filetype="as" />
+                <project_file path="./org/god/Common/NetWork.as" filetype="as" />
+                <project_file path="./org/god/Common/Size.as" filetype="as" />
+                <project_file path="./org/god/Common/TimerPair.as" filetype="as" />
+                <project_file path="./org/god/Common/DrawUtil.as" filetype="as" />
+                <project_file path="./org/god/Common/Common.fla" filetype="fla" profile="" />
+                <project_file path="./org/god/Common/FlashMovieClipHelper.as" filetype="as" />
+                <project_file path="./org/god/Common/TDRenderer.as" filetype="as" />
+                <project_file path="./org/god/Common/UserRight.as" filetype="as" />
+                <project_file path="./org/god/Common/MasterRight.as" filetype="as" />
+                <project_file path="./org/god/Common/TimeUtil.as" filetype="as" />
+                <project_file path="./org/god/Common/StringTableDef.as" filetype="as" />
+                <project_file path="./org/god/Common/FuncUtil.as" filetype="as" />
+                <project_file path="./org/god/Common/GameModuleNameFactory.as" filetype="as" />
+                <project_file path="./org/god/Common/SortTypeUtil.as" filetype="as" />
+                <project_file path="./org/god/Common/GameRoundTypeUtil.as" filetype="as" />
+                <project_file path="./org/god/Common/GameTypeAndGameKindUtil.as" filetype="as" />
+                <project_file path="./org/god/Common/GameKindCell.as" filetype="as" />
+                <project_file path="./org/god/Common/GameRoundTypeCell.as" filetype="as" />
+                <project_file path="./org/god/Common/GameTypeCell.as" filetype="as" />
+                <project_file path="./org/god/Common/IntUtil.as" filetype="as" />
+                <project_file path="./org/god/Common/SortTypeCell.as" filetype="as" />
+                <project_file path="./org/god/Common/UserLevelCell.as" filetype="as" />
+                <project_file path="./org/god/Common/OccupancyRateCell.as" filetype="as" />
+                <project_file path="./org/god/Common/RollbackRateCell.as" filetype="as" />
+                <project_file path="./org/god/Common/PrintJobUtil.as" filetype="as" />
+                <project_file path="./org/god/Common/NumericTableCell.as" filetype="as" />
+                <project_file path="./org/god/Common/GameTreeNode.as" filetype="as" />
+                <project_file path="./org/god/Common/GameUserStatusUtil.as" filetype="as" />
+                <project_file path="./org/god/Common/GameEndReasonUtil.as" filetype="as" />
+                <project_file path="./org/god/Common/GlobalCommonMain.as" filetype="as" />
+                <project_file path="./org/god/Common/ICommonMain.as" filetype="as" />
+                <project_file path="./org/god/Common/ServerItem.as" filetype="as" />
+                <project_file path="./org/god/Common/LogonStationCell.as" filetype="as" />
+                <project_file path="./org/god/Common/PercentTableCell.as" filetype="as" />
+                <project_file path="./org/god/Common/MovieClipUtil.as" filetype="as" />
+                <project_file path="./org/god/Common/CaptureRgnEvent.as" filetype="as" />
+                <project_file path="./org/god/Common/CaptureRgnHelper.as" filetype="as" />
+            </project_folder>
+            <project_folder name="GameClient" expanded="true">
+                <project_folder name="PlazaWindow" expanded="true">
+                    <project_folder name="PlazaWindow_Common" expanded="false">
+                        <project_file path="./org/god/GameClient/PlazaWindow/Dialog_Common/PlazaWindow_CommonModule.fla" filetype="fla" profile="" />
+                        <project_file path="./org/god/GameClient/PlazaWindow/Dialog_Common/PlazaWindow_CommonModule.as" filetype="as" />
+                        <project_file path="./org/god/GameClient/PlazaWindow/Dialog_Common/ChartDlg.as" filetype="as" />
+                        <project_file path="./org/god/GameClient/PlazaWindow/Dialog_Common/BetHistoryDlg.as" filetype="as" />
+                        <project_file path="./org/god/GameClient/PlazaWindow/Dialog_Common/OperationDlg.as" filetype="as" />
+                        <project_file path="./org/god/GameClient/PlazaWindow/Dialog_Common/ChangePasswdDlg.as" filetype="as" />
+                    </project_folder>
+                    <project_folder name="BetHistoryPanel_Common" expanded="false">
+                        <project_file path="./org/god/GameClient/PlazaWindow/BetHistoryPanel_Common/BetHistoryPanel_CommonModule.as" filetype="as" />
+                        <project_file path="./org/god/GameClient/PlazaWindow/BetHistoryPanel_Common/BetHistoryPanel_CommonModule.fla" filetype="fla" profile="" />
+                        <project_file path="./org/god/GameClient/PlazaWindow/BetHistoryPanel_Common/BetHistoryResource.as" filetype="as" />
+                    </project_folder>
+                    <project_folder name="GamePane" expanded="true">
+                        <project_file path="./org/god/GameClient/PlazaWindow/GamePane/GamePaneModule.as" filetype="as" />
+                        <project_file path="./org/god/GameClient/PlazaWindow/GamePane/GamePaneModule.fla" filetype="fla" profile="" />
+                        <project_file path="./org/god/GameClient/PlazaWindow/GamePane/ClientUserManager.as" filetype="as" />
+                        <project_file path="./org/god/GameClient/PlazaWindow/GamePane/GamePane.as" filetype="as" />
+                        <project_file path="./org/god/GameClient/PlazaWindow/GamePane/SkinLoaderPane.as" filetype="as" />
+                        <project_file path="./org/god/GameClient/PlazaWindow/GamePane/TableFrameView.as" filetype="as" />
+                        <project_file path="./org/god/GameClient/PlazaWindow/GamePane/TableResource.as" filetype="as" />
+                        <project_file path="./org/god/GameClient/PlazaWindow/GamePane/TableView.as" filetype="as" />
+                        <project_file path="./org/god/GameClient/PlazaWindow/GamePane/tagFindTable.as" filetype="as" />
+                        <project_file path="./org/god/GameClient/PlazaWindow/GamePane/UserItem.as" filetype="as" />
+                    </project_folder>
+                    <project_file path="./org/god/GameClient/PlazaWindow/GameKindGridCell.as" filetype="as" />
+                    <project_file path="./org/god/GameClient/PlazaWindow/PlazaPane.as" filetype="as" />
+                    <project_file path="./org/god/GameClient/PlazaWindow/PlazaWindow.as" filetype="as" />
+                    <project_file path="./org/god/GameClient/PlazaWindow/PlazaWindowModule.as" filetype="as" />
+                    <project_file path="./org/god/GameClient/PlazaWindow/PlazaWindowModule.fla" filetype="fla" profile="" />
+                    <project_file path="./org/god/GameClient/PlazaWindow/PlazaWindowNavBar.as" filetype="as" />
+                    <project_file path="./org/god/GameClient/PlazaWindow/ServerItemTabPane.as" filetype="as" />
+                    <project_file path="./org/god/GameClient/PlazaWindow/ServerTypeTab.as" filetype="as" />
+                    <project_file path="./org/god/GameClient/PlazaWindow/ServerTypeTabContainer.as" filetype="as" />
+                    <project_file path="./org/god/GameClient/PlazaWindow/TabViewCasinoField.as" filetype="as" />
+                    <project_file path="./org/god/GameClient/PlazaWindow/TabViewGameKindGrid.as" filetype="as" />
+                    <project_file path="./org/god/GameClient/PlazaWindow/TabViewRootWeb.as" filetype="as" />
+                    <project_file path="./org/god/GameClient/PlazaWindow/GameHelpView.as" filetype="as" />
+                    <project_file path="./org/god/GameClient/PlazaWindow/ConstantDef.as" filetype="as" />
+                    <project_file path="./org/god/GameClient/PlazaWindow/PlazaWindowSocketSink.as" filetype="as" />
+                    <project_file path="./org/god/GameClient/PlazaWindow/GameIcon.as" filetype="as" />
+                    <project_file path="./org/god/GameClient/PlazaWindow/GameIconUtil.as" filetype="as" />
+                </project_folder>
+                <project_folder name="LogonWindow" expanded="true">
+                    <project_file path="./org/god/GameClient/LogonWindow/LogonWindow.as" filetype="as" />
+                    <project_file path="./org/god/GameClient/LogonWindow/LogonWindowModule.as" filetype="as" />
+                    <project_file path="./org/god/GameClient/LogonWindow/LogonWindowModule.fla" filetype="fla" profile="" />
+                    <project_file path="./org/god/GameClient/LogonWindow/LogonWindowSocketSink.as" filetype="as" />
+                </project_folder>
+                <project_folder name="RuleWindow" expanded="false">
+                    <project_file path="./org/god/GameClient/RuleWindow/RuleWindow.as" filetype="as" />
+                    <project_file path="./org/god/GameClient/RuleWindow/RuleWindowModule.as" filetype="as" />
+                    <project_file path="./org/god/GameClient/RuleWindow/RuleWindowModule.fla" filetype="fla" profile="" />
+                </project_folder>
+                <project_file path="./org/god/GameClient/Main.as" filetype="as" />
+                <project_file path="./org/god/GameClient/Main.fla" filetype="fla" profile="" />
+                <project_file path="./org/god/GameClient/InitMain.as" filetype="as" />
+                <project_file path="./org/god/GameClient/SkinGrayMessageBox.as" filetype="as" />
+                <project_file path="./org/god/GameClient/SkinMessageBox.as" filetype="as" />
+                <project_file path="./org/god/GameClient/SkinProcessBox.as" filetype="as" />
+                <project_file path="./org/god/GameClient/WindowLoaderPane.as" filetype="as" />
+                <project_file path="./org/god/GameClient/GOMLAF.as" filetype="as" />
+                <project_file path="./org/god/GameClient/LoaderTaskAllCompleteEvent.as" filetype="as" />
+                <project_file path="./org/god/GameClient/LoaderTaskCompleteEvent.as" filetype="as" />
+                <project_file path="./org/god/GameClient/LoaderTaskErrorEvent.as" filetype="as" />
+            </project_folder>
+            <project_folder name="GameModule" expanded="true">
+                <project_folder name="Common" expanded="false">
+                    <project_folder name="SlotWheel" expanded="false">
+                        <project_file path="./org/god/GameModule/Common/SlotWheel/AdjustScrollEngine.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/Common/SlotWheel/BaseScrollEngine.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/Common/SlotWheel/BaseScrollMotion.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/Common/SlotWheel/BaseSlotWheelConfig.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/Common/SlotWheel/BaseSlotWheelView.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/Common/SlotWheel/BaseWeaveSlotItem.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/Common/SlotWheel/DefaultSlotWheelConfig.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/Common/SlotWheel/DefaultSlotWheelView.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/Common/SlotWheel/DefaultWeaveSlotItem.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/Common/SlotWheel/DefaultWeaveSlotItemClipMask.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/Common/SlotWheel/ScrollEngineEvent.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/Common/SlotWheel/SingleSlotItem.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/Common/SlotWheel/SlotWheelResource.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/Common/SlotWheel/SlotWheelScrollMotion.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/Common/SlotWheel/SpeedDownScrollEngine.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/Common/SlotWheel/SpeedMaxScrollEngine.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/Common/SlotWheel/SpeedUpScrollEngine.as" filetype="as" />
+                    </project_folder>
+                    <project_file path="./org/god/GameModule/Common/GameBaseClass.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/Common/GameBaseView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/Common/enXCollocateMode.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/Common/enYCollocateMode.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/Common/enDirection.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/Common/BaseGameViewEvent.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/Common/Common.fla" filetype="fla" profile="" />
+                    <project_file path="./org/god/GameModule/Common/ChairIDView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/Common/ClockView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/Common/NetSpeedView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/Common/UserReadyView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/Common/BaseScoreView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/Common/BaseUserInfoView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/Common/IChairIDView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/Common/IClockView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/Common/IFaceView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/Common/INetSpeedView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/Common/IUserInfoView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/Common/IUserReadyView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/Common/StringTableDef.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/Common/P_Slot_Common.fla" filetype="fla" profile="" />
+                    <project_file path="./org/god/GameModule/Common/NumberText.as" filetype="as" />
+                </project_folder>
+                <project_folder name="B_Land" expanded="false">
+                    <project_folder name="Common" expanded="false">
+                        <project_file path="./org/god/GameModule/B_Land/Common/GameLogic.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Land/Common/GameLogicDef.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Land/Common/tagAnalyseResult.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Land/Common/CMD_C_LandScore.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Land/Common/CMD_C_OutCard.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Land/Common/CMD_LAND.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Land/Common/CMD_S_GameEnd.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Land/Common/CMD_S_GameStart.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Land/Common/CMD_S_LandScore.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Land/Common/CMD_S_OutCard.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Land/Common/CMD_S_PassCard.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Land/Common/CMD_S_SendCard.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Land/Common/CMD_S_StatusFree.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Land/Common/CMD_S_StatusPlay.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Land/Common/CMD_S_StatusScore.as" filetype="as" />
+                    </project_folder>
+                    <project_file path="./org/god/GameModule/B_Land/GameClass.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Land/GameView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Land/ModuleMain.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Land/GameViewEvent.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Land/FaceView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Land/ModuleMain.fla" filetype="fla" profile="" />
+                    <project_file path="./org/god/GameModule/B_Land/CardControl.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Land/tagCardItem.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Land/StringTableDef.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Land/ScoreView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Land/UserInfoView.as" filetype="as" />
+                </project_folder>
+                <project_folder name="B_Sparrow" expanded="false">
+                    <project_folder name="Common" expanded="false">
+                        <project_file path="./org/god/GameModule/B_Sparrow/Common/GameLogic.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Sparrow/Common/tagKindItem.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Sparrow/Common/GameLogicDef.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Sparrow/Common/tagAnalyseItem.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Sparrow/Common/tagChiHuResult.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Sparrow/Common/tagWeaveItem.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Sparrow/Common/CMD_WeaveItem.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Sparrow/Common/CMD_S_GameEnd.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Sparrow/Common/CMD_S_GameStart.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Sparrow/Common/CMD_S_OperateNotify.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Sparrow/Common/CMD_S_OperateResult.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Sparrow/Common/CMD_S_StatusFree.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Sparrow/Common/CMD_S_StatusPlay.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Sparrow/Common/CMD_Sparrow.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Sparrow/Common/CMD_C_OperateSparrow.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Sparrow/Common/CMD_C_OutSparrow.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Sparrow/Common/CMD_S_OutSparrow.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Sparrow/Common/CMD_S_SendSparrow.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Sparrow/Common/tagGangSparrowResult.as" filetype="as" />
+                    </project_folder>
+                    <project_file path="./org/god/GameModule/B_Sparrow/ModuleMain.fla" filetype="fla" profile="" />
+                    <project_file path="./org/god/GameModule/B_Sparrow/ModuleMain.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Sparrow/GameClass.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Sparrow/GameView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Sparrow/GameViewEvent.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Sparrow/ControlMC.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Sparrow/DiscardSparrow.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Sparrow/HeapSparrow.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Sparrow/SparrowControl.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Sparrow/SparrowDef.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Sparrow/SparrowListImage.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Sparrow/SparrowResource.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Sparrow/TableSparrow.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Sparrow/tagSparrowItem.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Sparrow/UserSparrow.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Sparrow/WeaveSparrow.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Sparrow/StringTableDef.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Sparrow/ScoreView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Sparrow/UserInfoView.as" filetype="as" />
+                </project_folder>
+                <project_folder name="B_BlackJack" expanded="false">
+                    <project_folder name="Common" expanded="false">
+                        <project_file path="./org/god/GameModule/B_BlackJack/Common/CMD_BLACKJACK.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_BlackJack/Common/GameLogicDef.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_BlackJack/Common/CMD_S_StatusAddGold.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_BlackJack/Common/CMD_S_StatusFree.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_BlackJack/Common/CMD_S_StatusPlay.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_BlackJack/Common/CMD_S_GameStart.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_BlackJack/Common/CMD_S_AddGold.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_BlackJack/Common/CMD_S_BrustCard.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_BlackJack/Common/CMD_S_CutCard.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_BlackJack/Common/CMD_S_GameEnd.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_BlackJack/Common/CMD_S_InitCard.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_BlackJack/Common/CMD_S_SendCard.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_BlackJack/Common/CMD_S_StopCard.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_BlackJack/Common/CMD_S_UserLeft.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_BlackJack/Common/CMD_C_AddGold.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_BlackJack/Common/CMD_C_GetCard.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_BlackJack/Common/CMD_C_StopCard.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_BlackJack/Common/GameLogic.as" filetype="as" />
+                    </project_folder>
+                    <project_file path="./org/god/GameModule/B_BlackJack/GameClass.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_BlackJack/GameView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_BlackJack/ModuleMain.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_BlackJack/ModuleMain.fla" filetype="fla" profile="" />
+                    <project_file path="./org/god/GameModule/B_BlackJack/GoldView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_BlackJack/GoldControl.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_BlackJack/GameViewEvent.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_BlackJack/CardControl.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_BlackJack/StringTableDef.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_BlackJack/ScoreView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_BlackJack/UserInfoView.as" filetype="as" />
+                </project_folder>
+                <project_folder name="B_ShowHand" expanded="false">
+                    <project_folder name="Common" expanded="false">
+                        <project_file path="./org/god/GameModule/B_ShowHand/Common/CMD_S_StatusFree.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_ShowHand/Common/CMD_S_GameStart.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_ShowHand/Common/CMD_S_StatusPlay.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_ShowHand/Common/CMD_C_AddGold.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_ShowHand/Common/CMD_R_SendCard.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_ShowHand/Common/CMD_S_AddGold.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_ShowHand/Common/CMD_S_GameEnd.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_ShowHand/Common/CMD_S_GiveUp.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_ShowHand/Common/CMD_ShowHand.as" filetype="as" />
+                    </project_folder>
+                    <project_file path="./org/god/GameModule/B_ShowHand/ModuleMain.fla" filetype="fla" profile="" />
+                    <project_file path="./org/god/GameModule/B_ShowHand/ModuleMain.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_ShowHand/GameClass.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_ShowHand/GameView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_ShowHand/CardControl.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_ShowHand/GoldControl.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_ShowHand/GameViewEvent.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_ShowHand/StringTableDef.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_ShowHand/ScoreView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_ShowHand/UserInfoView.as" filetype="as" />
+                </project_folder>
+                <project_folder name="B_GoldFlower" expanded="true">
+                    <project_folder name="Common" expanded="false">
+                        <project_file path="./org/god/GameModule/B_GoldFlower/Common/CMD_C_AddGold.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_GoldFlower/Common/CMD_GoldFlower.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_GoldFlower/Common/CMD_R_SendCard.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_GoldFlower/Common/CMD_S_AddGold.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_GoldFlower/Common/CMD_S_GameEnd.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_GoldFlower/Common/CMD_S_GameStart.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_GoldFlower/Common/CMD_S_GiveUp.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_GoldFlower/Common/CMD_S_StatusFree.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_GoldFlower/Common/CMD_S_StatusPlay.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_GoldFlower/Common/CMD_S_KANPAI.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_GoldFlower/Common/CMD_S_NewTurn.as" filetype="as" />
+                    </project_folder>
+                    <project_file path="./org/god/GameModule/B_GoldFlower/CardControl.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_GoldFlower/GameViewEvent.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_GoldFlower/GoldControl.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_GoldFlower/GameClass.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_GoldFlower/GameView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_GoldFlower/ModuleMain.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_GoldFlower/ModuleMain.fla" filetype="fla" profile="" />
+                    <project_file path="./org/god/GameModule/B_GoldFlower/StringTableDef.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_GoldFlower/GoldView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_GoldFlower/ScoreView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_GoldFlower/UserInfoView.as" filetype="as" />
+                </project_folder>
+                <project_folder name="B_Hoe" expanded="false">
+                    <project_folder name="Common" expanded="true">
+                        <project_file path="./org/god/GameModule/B_Hoe/Common/CMD_S_StatusFree.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Hoe/Common/CMD_C_OutCard.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Hoe/Common/CMD_Hoe.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Hoe/Common/CMD_S_GameEnd.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Hoe/Common/CMD_S_GameStart.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Hoe/Common/CMD_S_OutCard.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Hoe/Common/CMD_S_PassCard.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Hoe/Common/CMD_S_StatusPlay.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Hoe/Common/GameLogic.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Hoe/Common/GameLogicDef.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Hoe/Common/tagAnalyseResult.as" filetype="as" />
+                    </project_folder>
+                    <project_file path="./org/god/GameModule/B_Hoe/ModuleMain.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Hoe/ModuleMain.fla" filetype="fla" profile="" />
+                    <project_file path="./org/god/GameModule/B_Hoe/CardControl.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Hoe/GameClass.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Hoe/GameView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Hoe/GameViewEvent.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Hoe/StringTableDef.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Hoe/tagCardItem.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Hoe/ScoreView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Hoe/UserInfoView.as" filetype="as" />
+                </project_folder>
+                <project_folder name="B_Upgrade" expanded="false">
+                    <project_folder name="Common" expanded="false">
+                        <project_file path="./org/god/GameModule/B_Upgrade/Common/GameLogic.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Upgrade/Common/GameLogicDef.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Upgrade/Common/tagSameDataInfo.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Upgrade/Common/tagAnalyseResult.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Upgrade/Common/tagDemandInfo.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Upgrade/Common/tagOutCardResult.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Upgrade/Common/tagTractorDataInfo.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Upgrade/Common/CMD_C_CallCard.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Upgrade/Common/CMD_C_ConcealCard.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Upgrade/Common/CMD_C_OutCard.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Upgrade/Common/CMD_S_CallCard.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Upgrade/Common/CMD_S_GameEnd.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Upgrade/Common/CMD_S_GamePlay.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Upgrade/Common/CMD_S_GameStart.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Upgrade/Common/CMD_S_OutCard.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Upgrade/Common/CMD_S_SendCard.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Upgrade/Common/CMD_S_SendConceal.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Upgrade/Common/CMD_S_StatusBack.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Upgrade/Common/CMD_S_StatusCall.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Upgrade/Common/CMD_S_StatusFree.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Upgrade/Common/CMD_S_StatusPlay.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Upgrade/Common/CMD_S_StatusWait.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Upgrade/Common/CMD_S_ThrowResult.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Upgrade/Common/CMD_TurnBalance.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_Upgrade/Common/CMD_Upgrade.as" filetype="as" />
+                    </project_folder>
+                    <project_file path="./org/god/GameModule/B_Upgrade/ModuleMain.fla" filetype="fla" profile="" />
+                    <project_file path="./org/god/GameModule/B_Upgrade/ModuleMain.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Upgrade/tagCardItem.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Upgrade/CardControl.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Upgrade/GameViewEvent.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Upgrade/StringTableDef.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Upgrade/UserCardControl.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Upgrade/CallCardWnd.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Upgrade/ConcealCardView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Upgrade/GameClass.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Upgrade/GameView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Upgrade/ScoreView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_Upgrade/UserInfoView.as" filetype="as" />
+                </project_folder>
+                <project_folder name="B_UncoverPig" expanded="false">
+                    <project_folder name="Common" expanded="false">
+                        <project_file path="./org/god/GameModule/B_UncoverPig/Common/CMD_UncoverPig.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_UncoverPig/Common/GameLogic.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_UncoverPig/Common/CMD_C_OutCard.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_UncoverPig/Common/CMD_C_ShowCard.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_UncoverPig/Common/CMD_S_GameEnd.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_UncoverPig/Common/CMD_S_GameStart.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_UncoverPig/Common/CMD_S_OutCard.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_UncoverPig/Common/CMD_S_SendCard.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_UncoverPig/Common/CMD_S_ShowCard.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_UncoverPig/Common/CMD_S_StatusFree.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_UncoverPig/Common/CMD_S_StatusPlay.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_UncoverPig/Common/CMD_S_StatusShowCard.as" filetype="as" />
+                    </project_folder>
+                    <project_file path="./org/god/GameModule/B_UncoverPig/CardControl.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_UncoverPig/GameClass.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_UncoverPig/GameView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_UncoverPig/GameViewEvent.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_UncoverPig/ModuleMain.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_UncoverPig/ModuleMain.fla" filetype="fla" profile="" />
+                    <project_file path="./org/god/GameModule/B_UncoverPig/StringTableDef.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_UncoverPig/tagCardItem.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_UncoverPig/ScoreView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_UncoverPig/UserInfoView.as" filetype="as" />
+                </project_folder>
+                <project_folder name="P_BigGameMachine_Fruit" expanded="false">
+                    <project_folder name="Common" expanded="false">
+                        <project_file path="./org/god/GameModule/P_BigGameMachine_Fruit/Common/CMD_Commonality.as" filetype="as" />
+                    </project_folder>
+                    <project_file path="./org/god/GameModule/P_BigGameMachine_Fruit/ModuleMain.fla" filetype="fla" profile="" />
+                    <project_file path="./org/god/GameModule/P_BigGameMachine_Fruit/ModuleMain.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_BigGameMachine_Fruit/GameClass.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_BigGameMachine_Fruit/GameView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_BigGameMachine_Fruit/StringTableDef.as" filetype="as" />
+                </project_folder>
+                <project_folder name="P_BigGameMachine_GuessTrain" expanded="false">
+                    <project_folder name="Common" expanded="false">
+                        <project_file path="./org/god/GameModule/P_BigGameMachine_GuessTrain/Common/CMD_Commonality.as" filetype="as" />
+                    </project_folder>
+                    <project_file path="./org/god/GameModule/P_BigGameMachine_GuessTrain/ModuleMain.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_BigGameMachine_GuessTrain/ModuleMain.fla" filetype="fla" profile="" />
+                    <project_file path="./org/god/GameModule/P_BigGameMachine_GuessTrain/GameClass.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_BigGameMachine_GuessTrain/GameView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_BigGameMachine_GuessTrain/StringTableDef.as" filetype="as" />
+                </project_folder>
+                <project_folder name="P_BigGameMachine_HorseRace" expanded="false">
+                    <project_folder name="Common" expanded="false">
+                        <project_file path="./org/god/GameModule/P_BigGameMachine_HorseRace/Common/CMD_Commonality.as" filetype="as" />
+                    </project_folder>
+                    <project_file path="./org/god/GameModule/P_BigGameMachine_HorseRace/ModuleMain.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_BigGameMachine_HorseRace/ModuleMain.fla" filetype="fla" profile="" />
+                    <project_file path="./org/god/GameModule/P_BigGameMachine_HorseRace/GameClass.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_BigGameMachine_HorseRace/GameView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_BigGameMachine_HorseRace/StringTableDef.as" filetype="as" />
+                </project_folder>
+                <project_folder name="P_BigGameMachine_LuckyNumber" expanded="false">
+                    <project_folder name="Common" expanded="true">
+                        <project_file path="./org/god/GameModule/P_BigGameMachine_LuckyNumber/Common/CMD_Commonality.as" filetype="as" />
+                    </project_folder>
+                    <project_file path="./org/god/GameModule/P_BigGameMachine_LuckyNumber/ModuleMain.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_BigGameMachine_LuckyNumber/ModuleMain.fla" filetype="fla" profile="" />
+                    <project_file path="./org/god/GameModule/P_BigGameMachine_LuckyNumber/GameClass.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_BigGameMachine_LuckyNumber/GameView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_BigGameMachine_LuckyNumber/StringTableDef.as" filetype="as" />
+                </project_folder>
+                <project_folder name="P_BigGameMachine_MonsterLegend" expanded="false">
+                    <project_folder name="Common" expanded="false">
+                        <project_file path="./org/god/GameModule/P_BigGameMachine_MonsterLegend/Common/CMD_Commonality.as" filetype="as" />
+                    </project_folder>
+                    <project_file path="./org/god/GameModule/P_BigGameMachine_MonsterLegend/ModuleMain.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_BigGameMachine_MonsterLegend/ModuleMain.fla" filetype="fla" profile="" />
+                    <project_file path="./org/god/GameModule/P_BigGameMachine_MonsterLegend/GameClass.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_BigGameMachine_MonsterLegend/GameView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_BigGameMachine_MonsterLegend/StringTableDef.as" filetype="as" />
+                </project_folder>
+                <project_folder name="P_Slot_CoolFruit" expanded="false">
+                    <project_folder name="Common" expanded="false">
+                        <project_file path="./org/god/GameModule/P_Slot_CoolFruit/Common/CMD_Commonality.as" filetype="as" />
+                    </project_folder>
+                    <project_file path="./org/god/GameModule/P_Slot_CoolFruit/ModuleMain.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_Slot_CoolFruit/ModuleMain.fla" filetype="fla" profile="" />
+                    <project_file path="./org/god/GameModule/P_Slot_CoolFruit/GameClass.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_Slot_CoolFruit/GameView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_Slot_CoolFruit/StringTableDef.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_Slot_CoolFruit/GameSlotWheelView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_Slot_CoolFruit/GameSlotWheelConfig.as" filetype="as" />
+                </project_folder>
+                <project_folder name="P_Slot_MahjongBall" expanded="false">
+                    <project_folder name="Common" expanded="true">
+                        <project_file path="./org/god/GameModule/P_Slot_MahjongBall/Common/CMD_Commonality.as" filetype="as" />
+                    </project_folder>
+                    <project_file path="./org/god/GameModule/P_Slot_MahjongBall/ModuleMain.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_Slot_MahjongBall/ModuleMain.fla" filetype="fla" profile="" />
+                    <project_file path="./org/god/GameModule/P_Slot_MahjongBall/GameClass.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_Slot_MahjongBall/GameView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_Slot_MahjongBall/StringTableDef.as" filetype="as" />
+                </project_folder>
+                <project_folder name="P_Slot_Poker" expanded="false">
+                    <project_folder name="Common" expanded="true">
+                        <project_file path="./org/god/GameModule/P_Slot_Poker/Common/CMD_Commonality.as" filetype="as" />
+                    </project_folder>
+                    <project_file path="./org/god/GameModule/P_Slot_Poker/ModuleMain.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_Slot_Poker/ModuleMain.fla" filetype="fla" profile="" />
+                    <project_file path="./org/god/GameModule/P_Slot_Poker/GameClass.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_Slot_Poker/GameView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_Slot_Poker/StringTableDef.as" filetype="as" />
+                </project_folder>
+                <project_folder name="P_Slot_Soccer" expanded="false">
+                    <project_folder name="Common" expanded="false">
+                    </project_folder>
+                    <project_file path="./org/god/GameModule/P_Slot_Soccer/ModuleMain.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_Slot_Soccer/ModuleMain.fla" filetype="fla" profile="" />
+                    <project_file path="./org/god/GameModule/P_Slot_Soccer/GameClass.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_Slot_Soccer/GameView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_Slot_Soccer/StringTableDef.as" filetype="as" />
+                </project_folder>
+                <project_folder name="P_Slot_Star97" expanded="false">
+                    <project_folder name="Common" expanded="false">
+                    </project_folder>
+                    <project_file path="./org/god/GameModule/P_Slot_Star97/ModuleMain.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_Slot_Star97/ModuleMain.fla" filetype="fla" profile="" />
+                    <project_file path="./org/god/GameModule/P_Slot_Star97/GameClass.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_Slot_Star97/GameView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_Slot_Star97/StringTableDef.as" filetype="as" />
+                </project_folder>
+                <project_folder name="P_TableGame_Baccarat" expanded="false">
+                    <project_folder name="Common" expanded="false">
+                    </project_folder>
+                    <project_file path="./org/god/GameModule/P_TableGame_Baccarat/ModuleMain.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_TableGame_Baccarat/ModuleMain.fla" filetype="fla" profile="" />
+                    <project_file path="./org/god/GameModule/P_TableGame_Baccarat/GameClass.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_TableGame_Baccarat/GameView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_TableGame_Baccarat/StringTableDef.as" filetype="as" />
+                </project_folder>
+                <project_folder name="P_TableGame_BlackJack" expanded="false">
+                    <project_folder name="Common" expanded="false">
+                    </project_folder>
+                    <project_file path="./org/god/GameModule/P_TableGame_BlackJack/ModuleMain.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_TableGame_BlackJack/ModuleMain.fla" filetype="fla" profile="" />
+                    <project_file path="./org/god/GameModule/P_TableGame_BlackJack/GameClass.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_TableGame_BlackJack/GameView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_TableGame_BlackJack/StringTableDef.as" filetype="as" />
+                </project_folder>
+                <project_folder name="P_TableGame_DragonTiger" expanded="false">
+                    <project_folder name="Common" expanded="false">
+                    </project_folder>
+                    <project_file path="./org/god/GameModule/P_TableGame_DragonTiger/ModuleMain.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_TableGame_DragonTiger/ModuleMain.fla" filetype="fla" profile="" />
+                    <project_file path="./org/god/GameModule/P_TableGame_DragonTiger/GameClass.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_TableGame_DragonTiger/GameView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_TableGame_DragonTiger/StringTableDef.as" filetype="as" />
+                </project_folder>
+                <project_folder name="P_TableGame_RedDog" expanded="false">
+                    <project_folder name="Common" expanded="false">
+                    </project_folder>
+                    <project_file path="./org/god/GameModule/P_TableGame_RedDog/ModuleMain.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_TableGame_RedDog/ModuleMain.fla" filetype="fla" profile="" />
+                    <project_file path="./org/god/GameModule/P_TableGame_RedDog/GameClass.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_TableGame_RedDog/GameView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_TableGame_RedDog/StringTableDef.as" filetype="as" />
+                </project_folder>
+                <project_folder name="P_TableGame_Roulette" expanded="false">
+                    <project_folder name="Common" expanded="false">
+                    </project_folder>
+                    <project_file path="./org/god/GameModule/P_TableGame_Roulette/ModuleMain.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_TableGame_Roulette/ModuleMain.fla" filetype="fla" profile="" />
+                    <project_file path="./org/god/GameModule/P_TableGame_Roulette/GameClass.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_TableGame_Roulette/GameView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_TableGame_Roulette/StringTableDef.as" filetype="as" />
+                </project_folder>
+                <project_folder name="P_TableGame_Sicbo" expanded="false">
+                    <project_folder name="Common" expanded="false">
+                    </project_folder>
+                    <project_file path="./org/god/GameModule/P_TableGame_Sicbo/ModuleMain.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_TableGame_Sicbo/ModuleMain.fla" filetype="fla" profile="" />
+                    <project_file path="./org/god/GameModule/P_TableGame_Sicbo/GameClass.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_TableGame_Sicbo/GameView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_TableGame_Sicbo/StringTableDef.as" filetype="as" />
+                </project_folder>
+                <project_folder name="P_TableGame_War" expanded="false">
+                    <project_folder name="Common" expanded="false">
+                    </project_folder>
+                    <project_file path="./org/god/GameModule/P_TableGame_War/ModuleMain.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_TableGame_War/ModuleMain.fla" filetype="fla" profile="" />
+                    <project_file path="./org/god/GameModule/P_TableGame_War/GameClass.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_TableGame_War/GameView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_TableGame_War/StringTableDef.as" filetype="as" />
+                </project_folder>
+                <project_folder name="P_VideoPoker_5PK" expanded="false">
+                    <project_folder name="Common" expanded="false">
+                    </project_folder>
+                    <project_file path="./org/god/GameModule/P_VideoPoker_5PK/ModuleMain.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_VideoPoker_5PK/ModuleMain.fla" filetype="fla" profile="" />
+                    <project_file path="./org/god/GameModule/P_VideoPoker_5PK/GameClass.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_VideoPoker_5PK/GameView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_VideoPoker_5PK/StringTableDef.as" filetype="as" />
+                </project_folder>
+                <project_folder name="P_VideoPoker_5PK1" expanded="false">
+                    <project_folder name="Common" expanded="false">
+                    </project_folder>
+                    <project_file path="./org/god/GameModule/P_VideoPoker_5PK1/ModuleMain.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_VideoPoker_5PK1/ModuleMain.fla" filetype="fla" profile="" />
+                    <project_file path="./org/god/GameModule/P_VideoPoker_5PK1/GameClass.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_VideoPoker_5PK1/GameView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_VideoPoker_5PK1/StringTableDef.as" filetype="as" />
+                </project_folder>
+                <project_folder name="P_VideoPoker_5PK2" expanded="false">
+                    <project_folder name="Common" expanded="false">
+                    </project_folder>
+                    <project_file path="./org/god/GameModule/P_VideoPoker_5PK2/ModuleMain.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_VideoPoker_5PK2/ModuleMain.fla" filetype="fla" profile="" />
+                    <project_file path="./org/god/GameModule/P_VideoPoker_5PK2/GameClass.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_VideoPoker_5PK2/GameView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_VideoPoker_5PK2/StringTableDef.as" filetype="as" />
+                </project_folder>
+                <project_folder name="P_VideoPoker_7PK" expanded="false">
+                    <project_folder name="Common" expanded="false">
+                    </project_folder>
+                    <project_file path="./org/god/GameModule/P_VideoPoker_7PK/ModuleMain.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_VideoPoker_7PK/ModuleMain.fla" filetype="fla" profile="" />
+                    <project_file path="./org/god/GameModule/P_VideoPoker_7PK/GameClass.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_VideoPoker_7PK/GameView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/P_VideoPoker_7PK/StringTableDef.as" filetype="as" />
+                </project_folder>
+                <project_folder name="B_SiChuan_Land" expanded="true">
+                    <project_folder name="Common" expanded="false">
+                        <project_file path="./org/god/GameModule/B_SiChuan_Land/Common/CMD_C_LandScore.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_SiChuan_Land/Common/CMD_C_OutCard.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_SiChuan_Land/Common/CMD_LAND.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_SiChuan_Land/Common/CMD_S_GameEnd.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_SiChuan_Land/Common/CMD_S_GameStart.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_SiChuan_Land/Common/CMD_S_LandScore.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_SiChuan_Land/Common/CMD_S_OutCard.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_SiChuan_Land/Common/CMD_S_PassCard.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_SiChuan_Land/Common/CMD_S_SendCard.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_SiChuan_Land/Common/CMD_S_StatusFree.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_SiChuan_Land/Common/CMD_S_StatusPlay.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_SiChuan_Land/Common/CMD_S_StatusScore.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_SiChuan_Land/Common/GameLogic.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_SiChuan_Land/Common/GameLogicDef.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_SiChuan_Land/Common/tagAnalyseResult.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_SiChuan_Land/Common/CMD_S_DoubleTime.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_SiChuan_Land/Common/CMD_C_DoubleTime.as" filetype="as" />
+                        <project_file path="./org/god/GameModule/B_SiChuan_Land/Common/CMD_S_StatusDoubleTime.as" filetype="as" />
+                    </project_folder>
+                    <project_file path="./org/god/GameModule/B_SiChuan_Land/CardControl.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_SiChuan_Land/FaceView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_SiChuan_Land/GameClass.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_SiChuan_Land/GameView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_SiChuan_Land/GameViewEvent.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_SiChuan_Land/ModuleMain.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_SiChuan_Land/ModuleMain.fla" filetype="fla" profile="" />
+                    <project_file path="./org/god/GameModule/B_SiChuan_Land/ScoreView.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_SiChuan_Land/StringTableDef.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_SiChuan_Land/tagCardItem.as" filetype="as" />
+                    <project_file path="./org/god/GameModule/B_SiChuan_Land/UserInfoView.as" filetype="as" />
+                </project_folder>
+            </project_folder>
+            <project_folder name="IGameFrame" expanded="false">
+                <project_file path="./org/god/IGameFrame/ChannelMessageDef.as" filetype="as" />
+                <project_file path="./org/god/IGameFrame/GlobalMain.as" filetype="as" />
+                <project_file path="./org/god/IGameFrame/IChannelMessageSink.as" filetype="as" />
+                <project_file path="./org/god/IGameFrame/IClientUserManager.as" filetype="as" />
+                <project_file path="./org/god/IGameFrame/IEnterGameEventListener.as" filetype="as" />
+                <project_file path="./org/god/IGameFrame/IGameClass.as" filetype="as" />
+                <project_file path="./org/god/IGameFrame/IGameClassContainer.as" filetype="as" />
+                <project_file path="./org/god/IGameFrame/IGamePaneImpl.as" filetype="as" />
+                <project_file path="./org/god/IGameFrame/IGameView.as" filetype="as" />
+                <project_file path="./org/god/IGameFrame/ILogonWindow.as" filetype="as" />
+                <project_file path="./org/god/IGameFrame/IMain.as" filetype="as" />
+                <project_file path="./org/god/IGameFrame/IPaneImpl.as" filetype="as" />
+                <project_file path="./org/god/IGameFrame/IPlazaWindow.as" filetype="as" />
+                <project_file path="./org/god/IGameFrame/IPlazaWindowNavBar.as" filetype="as" />
+                <project_file path="./org/god/IGameFrame/IServerItem.as" filetype="as" />
+                <project_file path="./org/god/IGameFrame/ITableFrameSink.as" filetype="as" />
+                <project_file path="./org/god/IGameFrame/ITableFrameView.as" filetype="as" />
+                <project_file path="./org/god/IGameFrame/ITableView.as" filetype="as" />
+                <project_file path="./org/god/IGameFrame/IUserItem.as" filetype="as" />
+                <project_file path="./org/god/IGameFrame/IUserManagerSink.as" filetype="as" />
+                <project_file path="./org/god/IGameFrame/tagServerAttribute.as" filetype="as" />
+                <project_file path="./org/god/IGameFrame/tagTableState.as" filetype="as" />
+                <project_file path="./org/god/IGameFrame/IGameModule.as" filetype="as" />
+                <project_file path="./org/god/IGameFrame/UserDataChangeEvent.as" filetype="as" />
+                <project_file path="./org/god/IGameFrame/IRuleWindow.as" filetype="as" />
+            </project_folder>
+            <project_folder name="Net" expanded="false">
+                <project_folder name="Operation" expanded="false">
+                    <project_file path="./org/god/Net/Operation/GlobalOperation.as" filetype="as" />
+                    <project_file path="./org/god/Net/Operation/CMD_GP_GetOperation.as" filetype="as" />
+                    <project_file path="./org/god/Net/Operation/tagOperationHeader.as" filetype="as" />
+                    <project_file path="./org/god/Net/Operation/tagOperationData_Logon.as" filetype="as" />
+                    <project_file path="./org/god/Net/Operation/CMD_GP_OperationList.as" filetype="as" />
+                    <project_file path="./org/god/Net/Operation/tagOperationContent.as" filetype="as" />
+                    <project_file path="./org/god/Net/Operation/tagOperationData.as" filetype="as" />
+                    <project_file path="./org/god/Net/Operation/tagOperationData_NewAccount.as" filetype="as" />
+                    <project_file path="./org/god/Net/Operation/tagOperationData_NewSubAccount.as" filetype="as" />
+                    <project_file path="./org/god/Net/Operation/tagOperationData_SetBasicInfo.as" filetype="as" />
+                    <project_file path="./org/god/Net/Operation/tagOperationData_SetCongealState.as" filetype="as" />
+                    <project_file path="./org/god/Net/Operation/tagOperationData_SetOccupancyRate.as" filetype="as" />
+                    <project_file path="./org/god/Net/Operation/tagOperationData_SetRollbackRate.as" filetype="as" />
+                    <project_file path="./org/god/Net/Operation/tagOperationData_SetScore.as" filetype="as" />
+                    <project_file path="./org/god/Net/Operation/tagOperationData_SetUserRight.as" filetype="as" />
+                    <project_file path="./org/god/Net/Operation/CMD_GP_OperationListConfig.as" filetype="as" />
+                    <project_file path="./org/god/Net/Operation/tagOperationData_KickUser.as" filetype="as" />
+                </project_folder>
+                <project_folder name="Chart" expanded="true">
+                    <project_file path="./org/god/Net/Chart/CMD_GP_GetChartViewOne.as" filetype="as" />
+                    <project_file path="./org/god/Net/Chart/CMD_GP_ChartViewOneListConfig.as" filetype="as" />
+                    <project_file path="./org/god/Net/Chart/tagChartViewOneData.as" filetype="as" />
+                    <project_file path="./org/god/Net/Chart/CMD_GP_ChartViewOneList.as" filetype="as" />
+                    <project_file path="./org/god/Net/Chart/CMD_GP_GetChartViewTwo.as" filetype="as" />
+                    <project_file path="./org/god/Net/Chart/CMD_GP_ChartViewTwoListConfig.as" filetype="as" />
+                    <project_file path="./org/god/Net/Chart/tagChartViewTwoData.as" filetype="as" />
+                    <project_file path="./org/god/Net/Chart/CMD_GP_ChartViewTwoList.as" filetype="as" />
+                    <project_file path="./org/god/Net/Chart/CMD_GP_ChartViewThreeSucess.as" filetype="as" />
+                    <project_file path="./org/god/Net/Chart/CMD_GP_GetChartViewThree.as" filetype="as" />
+                </project_folder>
+                <project_folder name="BetHistory" expanded="true">
+                    <project_file path="./org/god/Net/BetHistory/CMD_GP_BetHistoryList.as" filetype="as" />
+                    <project_file path="./org/god/Net/BetHistory/CMD_GP_BetHistoryListConfig.as" filetype="as" />
+                    <project_file path="./org/god/Net/BetHistory/CMD_GP_GetBetHistory.as" filetype="as" />
+                    <project_file path="./org/god/Net/BetHistory/tagBetHistoryData.as" filetype="as" />
+                    <project_file path="./org/god/Net/BetHistory/CMD_GP_GetDetailBetScore.as" filetype="as" />
+                    <project_file path="./org/god/Net/BetHistory/CMD_GP_GetDetailBetScoreSuccess.as" filetype="as" />
+                </project_folder>
+                <project_file path="./org/god/Net/ClientSocket.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_Buffer.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_Command.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_Game.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GF_Info.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GF_Message.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GF_Option.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GF_UserChat.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GP_Error.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GP_ListConfig.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GP_LogonSuccess.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GP_Version.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GR_KillUser.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GR_LogonError.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GR_LogonSuccess.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GR_LookUserIP.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GR_Message.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GR_OptionServer.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GR_SendMessage.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GR_SendWarning.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GR_ServerInfo.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GR_SetUserRight.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GR_SitFailed.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GR_TableInfo.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GR_TableStatus.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GR_UserChat.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GR_UserInvite.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GR_UserInviteReq.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GR_UserRule.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GR_UserScore.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GR_UserSitReq.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GR_UserStatus.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GR_Wisper.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_Head.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_Info.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_KN_DetectSocket.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_Plaza.as" filetype="as" />
+                <project_file path="./org/god/Net/GLOBALDEF.as" filetype="as" />
+                <project_file path="./org/god/Net/GLOBALFRAME.as" filetype="as" />
+                <project_file path="./org/god/Net/IClientSocket.as" filetype="as" />
+                <project_file path="./org/god/Net/IClientSocketSink.as" filetype="as" />
+                <project_file path="./org/god/Net/InterfaceModuleIDef.as" filetype="as" />
+                <project_file path="./org/god/Net/IPC_GF_ServerInfo.as" filetype="as" />
+                <project_file path="./org/god/Net/IPC_UserScore.as" filetype="as" />
+                <project_file path="./org/god/Net/IPC_UserStatus.as" filetype="as" />
+                <project_file path="./org/god/Net/IUnknownEx.as" filetype="as" />
+                <project_file path="./org/god/Net/NetModuleIDef.as" filetype="as" />
+                <project_file path="./org/god/Net/tagGameKind.as" filetype="as" />
+                <project_file path="./org/god/Net/tagGameProcess.as" filetype="as" />
+                <project_file path="./org/god/Net/tagGameServer.as" filetype="as" />
+                <project_file path="./org/god/Net/tagGameStation.as" filetype="as" />
+                <project_file path="./org/god/Net/tagGameTable.as" filetype="as" />
+                <project_file path="./org/god/Net/tagGameType.as" filetype="as" />
+                <project_file path="./org/god/Net/tagOnLineCountInfo.as" filetype="as" />
+                <project_file path="./org/god/Net/tagTableStatus.as" filetype="as" />
+                <project_file path="./org/god/Net/tagUserData.as" filetype="as" />
+                <project_file path="./org/god/Net/tagUserInfoHead.as" filetype="as" />
+                <project_file path="./org/god/Net/tagUserScore.as" filetype="as" />
+                <project_file path="./org/god/Net/tagUserStatus.as" filetype="as" />
+                <project_file path="./org/god/Net/tagVideoGameTableParam.as" filetype="as" />
+                <project_file path="./org/god/Net/GlobalNetError.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GP_RegisterSuccess.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GP_BasicUserInfo.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GP_DetailUserInfo.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GP_GetLessUserList.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GP_LogonByAccount.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GP_LessUserList.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GP_RegisterUser.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GP_SetBasicUserInfoSuccess.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GP_SetDetailUserInfoSuccess.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GP_SetUserCongealState.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GP_SetUserCongealStateSuccess.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GP_SetUserRight.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GP_SetUserRightSuccess.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GP_SetUserScore.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GP_SetUserScoreSuccess.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GR_LogonByAccount.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GP_SubUserList.as" filetype="as" />
+                <project_file path="./org/god/Net/tagSubUserData.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GP_SetSubUserCongealState.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GP_SetSubUserCongealStateSuccess.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GP_RegisterSubUser.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GP_RegisterSubUserSuccess.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GP_BasicSubUserInfo.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GP_SetBasicSubUserInfoSuccess.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GP_MyselfBasicUserInfo.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GP_SetMySelfBasicUserInfoSuccess.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GP_GameInfo.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GP_Notice.as" filetype="as" />
+                <project_file path="./org/god/Net/CMD_GR_LookUserIPResult.as" filetype="as" />
+                <project_file path="./org/god/Net/IClientSocketRecvSink.as" filetype="as" />
+                <project_file path="./org/god/Net/tagGameServerOnLineCountInfo.as" filetype="as" />
+            </project_folder>
+            <project_folder name="SkinControl" expanded="false">
+                <project_folder name="SkinDateField" expanded="false">
+                    <project_file path="./org/god/SkinControl/SkinDateField/DateChooseBox.as" filetype="as" />
+                    <project_file path="./org/god/SkinControl/SkinDateField/DateChooseOKEvent.as" filetype="as" />
+                    <project_file path="./org/god/SkinControl/SkinDateField/DateChoosePanel.as" filetype="as" />
+                    <project_file path="./org/god/SkinControl/SkinDateField/DateField.as" filetype="as" />
+                    <project_file path="./org/god/SkinControl/SkinDateField/DateTimeLabel.as" filetype="as" />
+                    <project_file path="./org/god/SkinControl/SkinDateField/DateTimeLabelSelEvent.as" filetype="as" />
+                </project_folder>
+                <project_folder name="SkinPageBar" expanded="false">
+                    <project_file path="./org/god/SkinControl/SkinPageBar/GotoPageIndexEvent.as" filetype="as" />
+                    <project_file path="./org/god/SkinControl/SkinPageBar/PageBar.as" filetype="as" />
+                </project_folder>
+                <project_folder name="SkinScrollTextField" expanded="false">
+                    <project_file path="./org/god/SkinControl/SkinScrollTextField/ScrollTextField.as" filetype="as" />
+                    <project_file path="./org/god/SkinControl/SkinScrollTextField/ScrollTextPane.as" filetype="as" />
+                </project_folder>
+                <project_file path="./org/god/SkinControl/ButtonStateObject.as" filetype="as" />
+                <project_file path="./org/god/SkinControl/NavButton.as" filetype="as" />
+                <project_file path="./org/god/SkinControl/OrientableComponentBackground.as" filetype="as" />
+                <project_file path="./org/god/SkinControl/OrientableThumb.as" filetype="as" />
+                <project_file path="./org/god/SkinControl/SkinAbsEditorBackground.as" filetype="as" />
+                <project_file path="./org/god/SkinControl/SkinAbsEditorRolloverEnabledBackground.as" filetype="as" />
+                <project_file path="./org/god/SkinControl/SkinButton.as" filetype="as" />
+                <project_file path="./org/god/SkinControl/SkinButtonBackground.as" filetype="as" />
+                <project_file path="./org/god/SkinControl/SkinButtonIcon.as" filetype="as" />
+                <project_file path="./org/god/SkinControl/SkinComboBoxBackground.as" filetype="as" />
+                <project_file path="./org/god/SkinControl/SkinComboBoxUI.as" filetype="as" />
+                <project_file path="./org/god/SkinControl/SkinEmptyBorder.as" filetype="as" />
+                <project_file path="./org/god/SkinControl/SkinLabel.as" filetype="as" />
+                <project_file path="./org/god/SkinControl/SkinScrollBarBackground.as" filetype="as" />
+                <project_file path="./org/god/SkinControl/SkinScrollBarThumb.as" filetype="as" />
+                <project_file path="./org/god/SkinControl/SkinScrollBarUI.as" filetype="as" />
+                <project_file path="./org/god/SkinControl/SkinTabbedPaneTab.as" filetype="as" />
+                <project_file path="./org/god/SkinControl/SkinTabbedPaneUI.as" filetype="as" />
+                <project_file path="./org/god/SkinControl/SkinTextInput.as" filetype="as" />
+                <project_file path="./org/god/SkinControl/SkinImage.as" filetype="as" />
+                <project_file path="./org/god/SkinControl/ISkinImage.as" filetype="as" />
+                <project_file path="./org/god/SkinControl/SkinSimpleButton.as" filetype="as" />
+                <project_file path="./org/god/SkinControl/ImageButton.as" filetype="as" />
+                <project_file path="./org/god/SkinControl/ToggleImageButton.as" filetype="as" />
+                <project_file path="./org/god/SkinControl/BitmapBackground.as" filetype="as" />
+                <project_file path="./org/god/SkinControl/BaseDialog.as" filetype="as" />
+                <project_file path="./org/god/SkinControl/StringTableDef.as" filetype="as" />
+                <project_file path="./org/god/SkinControl/DialogEvent.as" filetype="as" />
+                <project_file path="./org/god/SkinControl/SkinTextField.as" filetype="as" />
+                <project_file path="./org/god/SkinControl/BaseSkinMessageBox.as" filetype="as" />
+                <project_file path="./org/god/SkinControl/PGoldTextField.as" filetype="as" />
+            </project_folder>
+            <project_folder name="GameManagement" expanded="false">
+                <project_folder name="LogonWindow" expanded="true">
+                    <project_file path="./org/god/GameManagement/LogonWindow/LogonWindow.as" filetype="as" />
+                    <project_file path="./org/god/GameManagement/LogonWindow/LogonWindowModule.as" filetype="as" />
+                    <project_file path="./org/god/GameManagement/LogonWindow/LogonWindowModule.fla" filetype="fla" profile="" />
+                    <project_file path="./org/god/GameManagement/LogonWindow/LogonWindowSocketSink.as" filetype="as" />
+                </project_folder>
+                <project_folder name="PlazaWindow" expanded="true">
+                    <project_folder name="AccountPanel" expanded="true">
+                        <project_folder name="Common" expanded="true">
+                            <project_file path="./org/god/GameManagement/PlazaWindow/AccountPanel/Common/BasicSubUserInfoDlg.as" filetype="as" />
+                            <project_file path="./org/god/GameManagement/PlazaWindow/AccountPanel/Common/BasicUserInfoDlg.as" filetype="as" />
+                            <project_file path="./org/god/GameManagement/PlazaWindow/AccountPanel/Common/DetailUserInfoDlg.as" filetype="as" />
+                            <project_file path="./org/god/GameManagement/PlazaWindow/AccountPanel/Common/RegisterUserDlg.as" filetype="as" />
+                            <project_file path="./org/god/GameManagement/PlazaWindow/AccountPanel/Common/SetUserRightDlg.as" filetype="as" />
+                            <project_file path="./org/god/GameManagement/PlazaWindow/AccountPanel/Common/SetUserScoreDlg.as" filetype="as" />
+                            <project_file path="./org/god/GameManagement/PlazaWindow/AccountPanel/Common/AccountPanel_CommonModule.fla" filetype="fla" profile="" />
+                            <project_file path="./org/god/GameManagement/PlazaWindow/AccountPanel/Common/AccountPanel_CommonModule.as" filetype="as" />
+                            <project_file path="./org/god/GameManagement/PlazaWindow/AccountPanel/Common/RegisterSubUserDlg.as" filetype="as" />
+                        </project_folder>
+                        <project_file path="./org/god/GameManagement/PlazaWindow/AccountPanel/AccountPanel.as" filetype="as" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/AccountPanel/FuncTableCellBtnEvent.as" filetype="as" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/AccountPanel/FunctionTableCell.as" filetype="as" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/AccountPanel/UserDataMutableTreeNode.as" filetype="as" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/AccountPanel/UserDataTableCell.as" filetype="as" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/AccountPanel/UserDataTreeCell.as" filetype="as" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/AccountPanel/UserDataTreeNodeData.as" filetype="as" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/AccountPanel/UserStateTableCell.as" filetype="as" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/AccountPanel/UserStateTableCellEvent.as" filetype="as" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/AccountPanel/AccountPanelModule.as" filetype="as" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/AccountPanel/AccountPanelModule.fla" filetype="fla" profile="" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/AccountPanel/SubUserDataTableCell.as" filetype="as" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/AccountPanel/FunctionSubUserTableCell.as" filetype="as" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/AccountPanel/SubUserStateTableCell.as" filetype="as" />
+                    </project_folder>
+                    <project_folder name="BetHistoryPanel" expanded="true">
+                        <project_folder name="Common" expanded="true">
+                            <project_file path="./org/god/GameManagement/PlazaWindow/BetHistoryPanel/Common/BetHistoryPanel_CommonModule.fla" filetype="fla" profile="" />
+                            <project_file path="./org/god/GameManagement/PlazaWindow/BetHistoryPanel/Common/BetHistoryResource.as" filetype="as" />
+                            <project_file path="./org/god/GameManagement/PlazaWindow/BetHistoryPanel/Common/BetHistoryPanel_CommonModule.as" filetype="as" />
+                        </project_folder>
+                        <project_file path="./org/god/GameManagement/PlazaWindow/BetHistoryPanel/BetHistoryPanel.as" filetype="as" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/BetHistoryPanel/BetHistoryPanelModule.as" filetype="as" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/BetHistoryPanel/BetHistoryPanelModule.fla" filetype="fla" profile="" />
+                    </project_folder>
+                    <project_folder name="BetMonitorPanel" expanded="false">
+                        <project_file path="./org/god/GameManagement/PlazaWindow/BetMonitorPanel/BetMonitorPanel.as" filetype="as" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/BetMonitorPanel/BetMonitorPanelModule.as" filetype="as" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/BetMonitorPanel/BetMonitorPanelModule.fla" filetype="fla" profile="" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/BetMonitorPanel/BlankMonitorTab.as" filetype="as" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/BetMonitorPanel/BaseMonitorTab.as" filetype="as" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/BetMonitorPanel/BattleMonitorTab.as" filetype="as" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/BetMonitorPanel/LotteryMonitorTab.as" filetype="as" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/BetMonitorPanel/PokieMonitorTab.as" filetype="as" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/BetMonitorPanel/VideoMonitorTab.as" filetype="as" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/BetMonitorPanel/ClientUserManager.as" filetype="as" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/BetMonitorPanel/UserItem.as" filetype="as" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/BetMonitorPanel/UserItemTableCell.as" filetype="as" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/BetMonitorPanel/FuncTableCellBtnEvent.as" filetype="as" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/BetMonitorPanel/FunctionTableCell.as" filetype="as" />
+                    </project_folder>
+                    <project_folder name="ChartPanel" expanded="false">
+                        <project_file path="./org/god/GameManagement/PlazaWindow/ChartPanel/ChartPanel.as" filetype="as" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/ChartPanel/ChartPanelModule.as" filetype="as" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/ChartPanel/ChartPanelModule.fla" filetype="fla" profile="" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/ChartPanel/ChartViewOneTab.as" filetype="as" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/ChartPanel/ChartViewTwoTab.as" filetype="as" />
+                    </project_folder>
+                    <project_folder name="Common" expanded="false">
+                        <project_file path="./org/god/GameManagement/PlazaWindow/Common/BasePanel.as" filetype="as" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/Common/ActiveOperationPanelData.as" filetype="as" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/Common/ActiveBetHistoryPanelData.as" filetype="as" />
+                    </project_folder>
+                    <project_folder name="MySelfDataPanel" expanded="false">
+                        <project_file path="./org/god/GameManagement/PlazaWindow/MySelfDataPanel/MySelfDataPanel.as" filetype="as" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/MySelfDataPanel/MySelfDataPanelModule.as" filetype="as" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/MySelfDataPanel/MySelfDataPanelModule.fla" filetype="fla" profile="" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/MySelfDataPanel/BasicUserInfoDlg.as" filetype="as" />
+                    </project_folder>
+                    <project_folder name="OperationPanel" expanded="false">
+                        <project_file path="./org/god/GameManagement/PlazaWindow/OperationPanel/OperationPanel.as" filetype="as" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/OperationPanel/OperationPanelModule.as" filetype="as" />
+                        <project_file path="./org/god/GameManagement/PlazaWindow/OperationPanel/OperationPanelModule.fla" filetype="fla" profile="" />
+                    </project_folder>
+                    <project_file path="./org/god/GameManagement/PlazaWindow/PlazaWindow.as" filetype="as" />
+                    <project_file path="./org/god/GameManagement/PlazaWindow/PlazaWindowModule.as" filetype="as" />
+                    <project_file path="./org/god/GameManagement/PlazaWindow/PlazaWindowModule.fla" filetype="fla" profile="" />
+                    <project_file path="./org/god/GameManagement/PlazaWindow/NavCmdButton.as" filetype="as" />
+                    <project_file path="./org/god/GameManagement/PlazaWindow/StringTableDef.as" filetype="as" />
+                    <project_file path="./org/god/GameManagement/PlazaWindow/TDPanelMotion.as" filetype="as" />
+                    <project_file path="./org/god/GameManagement/PlazaWindow/PlazaWindowSocketSink.as" filetype="as" />
+                    <project_file path="./org/god/GameManagement/PlazaWindow/MotionCompleteEvent.as" filetype="as" />
+                    <project_file path="./org/god/GameManagement/PlazaWindow/ConstantDef.as" filetype="as" />
+                </project_folder>
+                <project_folder name="RuleWindow" expanded="false">
+                    <project_file path="./org/god/GameManagement/RuleWindow/RuleWindowModule.fla" filetype="fla" profile="" />
+                    <project_file path="./org/god/GameManagement/RuleWindow/RuleWindowModule.as" filetype="as" />
+                    <project_file path="./org/god/GameManagement/RuleWindow/RuleWindow.as" filetype="as" />
+                </project_folder>
+                <project_file path="./org/god/GameManagement/InitMain.as" filetype="as" />
+                <project_file path="./org/god/GameManagement/Main.as" filetype="as" />
+                <project_file path="./org/god/GameManagement/Main.fla" filetype="fla" profile="" />
+                <project_file path="./org/god/GameManagement/SkinGrayMessageBox.as" filetype="as" />
+                <project_file path="./org/god/GameManagement/SkinMessageBox.as" filetype="as" />
+                <project_file path="./org/god/GameManagement/SkinProcessBox.as" filetype="as" />
+                <project_file path="./org/god/GameManagement/WindowLoaderPane.as" filetype="as" />
+                <project_file path="./org/god/GameManagement/GOMLAF.as" filetype="as" />
+                <project_file path="./org/god/GameManagement/LoaderTaskErrorEvent.as" filetype="as" />
+                <project_file path="./org/god/GameManagement/LoaderTaskCompleteEvent.as" filetype="as" />
+                <project_file path="./org/god/GameManagement/LoaderTaskAllCompleteEvent.as" filetype="as" />
+                <project_file path="./org/god/GameManagement/LoaderTask.as" filetype="as" />
+            </project_folder>
+            <project_folder name="IGameManagement" expanded="false">
+                <project_file path="./org/god/IGameManagement/ILogonWindow.as" filetype="as" />
+                <project_file path="./org/god/IGameManagement/IPlazaWindow.as" filetype="as" />
+                <project_file path="./org/god/IGameManagement/UserDataChangeEvent.as" filetype="as" />
+                <project_file path="./org/god/IGameManagement/GlobalMain.as" filetype="as" />
+                <project_file path="./org/god/IGameManagement/IMain.as" filetype="as" />
+                <project_file path="./org/god/IGameManagement/IPanelImpl.as" filetype="as" />
+            </project_folder>
+            <project_file path="./org/god/StringTableDef.as" filetype="as" />
+            <project_file path="./org/god/GlobalConst.as" filetype="as" />
+        </project_folder>
+        <project_folder name="papervision3d" expanded="false">
+            <project_folder name="cameras" expanded="true">
+                <project_file path="./org/papervision3d/cameras/Camera3D.as" filetype="as" />
+                <project_file path="./org/papervision3d/cameras/FreeCamera3D.as" filetype="as" />
+            </project_folder>
+            <project_folder name="components" expanded="false">
+                <project_folder name="as3" expanded="false">
+                    <project_folder name="collections" expanded="true">
+                        <project_file path="./org/papervision3d/components/as3/collections/MaterialsListItem.as" filetype="as" />
+                    </project_folder>
+                    <project_folder name="core" expanded="true">
+                        <project_file path="./org/papervision3d/components/as3/core/PV3DUIComponent.as" filetype="as" />
+                    </project_folder>
+                    <project_folder name="flash9" expanded="true">
+                        <project_file path="./org/papervision3d/components/as3/flash9/Logo.as" filetype="as" />
+                        <project_file path="./org/papervision3d/components/as3/flash9/PV3DColladaScene.as" filetype="as" />
+                        <project_file path="./org/papervision3d/components/as3/flash9/PV3DScene3D.as" filetype="as" />
+                    </project_folder>
+                    <project_folder name="utils" expanded="true">
+                        <project_file path="./org/papervision3d/components/as3/utils/CoordinateTools.as" filetype="as" />
+                    </project_folder>
+                </project_folder>
+            </project_folder>
+            <project_folder name="core" expanded="false">
+                <project_folder name="culling" expanded="false">
+                    <project_file path="./org/papervision3d/core/culling/CompositeTriangleCuller.as" filetype="as" />
+                    <project_file path="./org/papervision3d/core/culling/DefaultTriangleCuller.as" filetype="as" />
+                    <project_file path="./org/papervision3d/core/culling/DepthTriangleCuller.as" filetype="as" />
+                    <project_file path="./org/papervision3d/core/culling/ITriangleCuller.as" filetype="as" />
+                    <project_file path="./org/papervision3d/core/culling/RectangleTriangleCuller.as" filetype="as" />
+                </project_folder>
+                <project_folder name="draw" expanded="false">
+                    <project_file path="./org/papervision3d/core/draw/IFaceDrawer.as" filetype="as" />
+                </project_folder>
+                <project_folder name="geom" expanded="false">
+                    <project_file path="./org/papervision3d/core/geom/Face3D.as" filetype="as" />
+                    <project_file path="./org/papervision3d/core/geom/Face3DInstance.as" filetype="as" />
+                    <project_file path="./org/papervision3d/core/geom/Mesh3D.as" filetype="as" />
+                    <project_file path="./org/papervision3d/core/geom/Vertex2D.as" filetype="as" />
+                    <project_file path="./org/papervision3d/core/geom/Vertex3D.as" filetype="as" />
+                    <project_file path="./org/papervision3d/core/geom/Vertices3D.as" filetype="as" />
+                </project_folder>
+                <project_folder name="proto" expanded="false">
+                    <project_file path="./org/papervision3d/core/proto/CameraObject3D.as" filetype="as" />
+                    <project_file path="./org/papervision3d/core/proto/DisplayObjectContainer3D.as" filetype="as" />
+                    <project_file path="./org/papervision3d/core/proto/GeometryObject3D.as" filetype="as" />
+                    <project_file path="./org/papervision3d/core/proto/MaterialObject3D.as" filetype="as" />
+                    <project_file path="./org/papervision3d/core/proto/SceneObject3D.as" filetype="as" />
+                </project_folder>
+                <project_folder name="stat" expanded="true">
+                    <project_file path="./org/papervision3d/core/stat/RenderStatistics.as" filetype="as" />
+                </project_folder>
+                <project_file path="./org/papervision3d/core/Matrix3D.as" filetype="as" />
+                <project_file path="./org/papervision3d/core/Number3D.as" filetype="as" />
+                <project_file path="./org/papervision3d/core/NumberUV.as" filetype="as" />
+            </project_folder>
+            <project_folder name="events" expanded="true">
+                <project_file path="./org/papervision3d/events/FileLoadEvent.as" filetype="as" />
+                <project_file path="./org/papervision3d/events/InteractiveScene3DEvent.as" filetype="as" />
+            </project_folder>
+            <project_folder name="materials" expanded="false">
+                <project_file path="./org/papervision3d/materials/BitmapAssetMaterial.as" filetype="as" />
+                <project_file path="./org/papervision3d/materials/BitmapColorMaterial.as" filetype="as" />
+                <project_file path="./org/papervision3d/materials/BitmapFileMaterial.as" filetype="as" />
+                <project_file path="./org/papervision3d/materials/BitmapMaterial.as" filetype="as" />
+                <project_file path="./org/papervision3d/materials/BitmapWireframeMaterial.as" filetype="as" />
+                <project_file path="./org/papervision3d/materials/ColorMaterial.as" filetype="as" />
+                <project_file path="./org/papervision3d/materials/CompositeMaterial.as" filetype="as" />
+                <project_file path="./org/papervision3d/materials/InteractiveBitmapAssetMaterial.as" filetype="as" />
+                <project_file path="./org/papervision3d/materials/InteractiveBitmapColorMaterial.as" filetype="as" />
+                <project_file path="./org/papervision3d/materials/InteractiveBitmapFileMaterial.as" filetype="as" />
+                <project_file path="./org/papervision3d/materials/InteractiveBitmapMaterial.as" filetype="as" />
+                <project_file path="./org/papervision3d/materials/InteractiveBitmapWireframeMaterial.as" filetype="as" />
+                <project_file path="./org/papervision3d/materials/InteractiveColorMaterial.as" filetype="as" />
+                <project_file path="./org/papervision3d/materials/InteractiveMovieAssetMaterial.as" filetype="as" />
+                <project_file path="./org/papervision3d/materials/InteractiveMovieMaterial.as" filetype="as" />
+                <project_file path="./org/papervision3d/materials/InteractiveVideoStreamMaterial.as" filetype="as" />
+                <project_file path="./org/papervision3d/materials/InteractiveWireframeMaterial.as" filetype="as" />
+                <project_file path="./org/papervision3d/materials/MaterialsList.as" filetype="as" />
+                <project_file path="./org/papervision3d/materials/MovieAssetMaterial.as" filetype="as" />
+                <project_file path="./org/papervision3d/materials/MovieMaterial.as" filetype="as" />
+                <project_file path="./org/papervision3d/materials/SpriteAssetMaterial.as" filetype="as" />
+                <project_file path="./org/papervision3d/materials/SpriteMaterial.as" filetype="as" />
+                <project_file path="./org/papervision3d/materials/VideoStreamMaterial.as" filetype="as" />
+                <project_file path="./org/papervision3d/materials/WireframeMaterial.as" filetype="as" />
+            </project_folder>
+            <project_folder name="objects" expanded="true">
+                <project_file path="./org/papervision3d/objects/Ase.as" filetype="as" />
+                <project_file path="./org/papervision3d/objects/Collada.as" filetype="as" />
+                <project_file path="./org/papervision3d/objects/Cone.as" filetype="as" />
+                <project_file path="./org/papervision3d/objects/Cube.as" filetype="as" />
+                <project_file path="./org/papervision3d/objects/Cylinder.as" filetype="as" />
+                <project_file path="./org/papervision3d/objects/DisplayObject3D.as" filetype="as" />
+                <project_file path="./org/papervision3d/objects/PaperPlane.as" filetype="as" />
+                <project_file path="./org/papervision3d/objects/Plane.as" filetype="as" />
+                <project_file path="./org/papervision3d/objects/Sphere.as" filetype="as" />
+                <project_file path="./org/papervision3d/objects/Stars.as" filetype="as" />
+            </project_folder>
+            <project_folder name="scenes" expanded="true">
+                <project_file path="./org/papervision3d/scenes/FlexScene3D.as" filetype="as" />
+                <project_file path="./org/papervision3d/scenes/InteractiveScene3D.as" filetype="as" />
+                <project_file path="./org/papervision3d/scenes/MovieScene3D.as" filetype="as" />
+                <project_file path="./org/papervision3d/scenes/Scene3D.as" filetype="as" />
+            </project_folder>
+            <project_folder name="utils" expanded="true">
+                <project_file path="./org/papervision3d/utils/InteractiveContainerData.as" filetype="as" />
+                <project_file path="./org/papervision3d/utils/InteractiveSceneManager.as" filetype="as" />
+            </project_folder>
+            <project_file path="./org/papervision3d/Papervision3D.as" filetype="as" />
+        </project_folder>
+        <project_folder name="blitzagency" expanded="false">
+            <project_folder name="xray" expanded="true">
+                <project_folder name="logger" expanded="false">
+                    <project_folder name="events" expanded="false">
+                        <project_file path="./org/blitzagency/xray/logger/events/DebugDispatcher.as" filetype="as" />
+                        <project_file path="./org/blitzagency/xray/logger/events/DebugEvent.as" filetype="as" />
+                    </project_folder>
+                    <project_folder name="util" expanded="true">
+                        <project_file path="./org/blitzagency/xray/logger/util/ObjectTools.as" filetype="as" />
+                        <project_file path="./org/blitzagency/xray/logger/util/PropertyTools.as" filetype="as" />
+                    </project_folder>
+                    <project_file path="./org/blitzagency/xray/logger/Debug.as" filetype="as" />
+                    <project_file path="./org/blitzagency/xray/logger/Log.as" filetype="as" />
+                    <project_file path="./org/blitzagency/xray/logger/Logger.as" filetype="as" />
+                    <project_file path="./org/blitzagency/xray/logger/XrayLog.as" filetype="as" />
+                    <project_file path="./org/blitzagency/xray/logger/XrayLogger.as" filetype="as" />
+                </project_folder>
+                <project_folder name="util" expanded="true">
+                    <project_file path="./org/blitzagency/xray/util/LSOUserPreferences.as" filetype="as" />
+                </project_folder>
+            </project_folder>
+        </project_folder>
+    </project_folder>
+</flash_project>

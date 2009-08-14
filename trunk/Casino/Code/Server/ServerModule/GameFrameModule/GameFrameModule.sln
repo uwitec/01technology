@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "сно╥", "GameFrameModule.vcproj", "{319F717E-942F-4035-A4B5-311D3A1705F0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{319F717E-942F-4035-A4B5-311D3A1705F0}.Debug.ActiveCfg = Debug|Win32
+		{319F717E-942F-4035-A4B5-311D3A1705F0}.Debug.Build.0 = Debug|Win32
+		{319F717E-942F-4035-A4B5-311D3A1705F0}.Release.ActiveCfg = Release|Win32
+		{319F717E-942F-4035-A4B5-311D3A1705F0}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

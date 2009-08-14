@@ -1,0 +1,4 @@
+LIBRARY	SAMPLE32
+ 
+EXPORTS 
+	 ViseEntry
