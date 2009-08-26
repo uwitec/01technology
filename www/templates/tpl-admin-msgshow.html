@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>后台管理界面</title>
+<link href="{{php}}echo CSS_DIR{{/php}}/admin.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+</style>
+</head>
+<body>
+<div id="body"> {{include file='tpl-admin-header.html'}}
+  <div id="content"> {{include file='tpl-admin-menu.html'}}
+    <div id="ct_rt">
+	  <table class="table_list">
+	   <thead>
+	    <tr><td></td><td></td></tr>
+	   </thead> 
+	   <tbody>
+	    <tr>
+	      <td>标题</td>
+	      <td>{{$row.title}}</td>
+	    </tr>
+	    <tr>
+	      <td>内容</td>
+	      <td>{{$row.content}}</td>
+	    </tr>
+	    <tr>
+	      <td>客户名称</td>
+	      <td>{{$row.user}}</td>
+	    </tr>	    
+	    <tr>
+	      <td>E-mail</td>
+	      <td>{{$row.email}}</td>
+	    </tr>
+	    <tr>
+	      <td>电话</td>
+	      <td>{{$row.tel}}</td>
+	    </tr>
+	   </tbody>
+	  </table>
+	  <div align="center"><a href="#" onclick="javascript:window.location.href='/index.php/Admin/Msglist'">返回</a></div>
+    </div>
+  </div>
+{{include file='tpl-admin-footer.html'}} </div>
+</body>
+</html>

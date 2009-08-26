@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<imgList>
+<pic>
+<list path="ads/swf_img/big-1.jpg"   smallpath="ads/swf_img/small-1.jpg" smallinfo="柴苓清宁胶囊">http://www.lnwwyy.com/index.php/Products/Desc/id/1</list>
+<list path="ads/swf_img/big-2.jpg"   smallpath="ads/swf_img/small-2.jpg" smallinfo="思想之泉 清于达明">http://www.lnwwyy.com/index.php/Products/Desc/id/2</list>
+</pic>
+<rollTime fade_in="10">4</rollTime>
+<text font="黑体" size="12" bold="true" color="0xfffffff"></text>
+</imgList>

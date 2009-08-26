@@ -1,0 +1,58 @@
+{{include file="tpl-header.html"}}
+<body>
+<div style="width:100%; height:100%; position:relative;">
+<div id="body">
+{{include file="tpl-menu.html"}}
+<script type="text/javascript" src="{{php}}echo JS_DIR{{/php}}/Groject.ImageSwitch.102.yui.js"></script>
+<script type="text/javascript" src="{{php}}echo JS_DIR{{/php}}/ads.js"></script>
+ <div id="banner_index">
+	<div id="ControlDiv"><a id="SlideShow">Play slide show</a></div>
+	<div id="DisplayDiv">
+		<img src="/Stuff/images/med-1.jpg" id="MainImage"/>
+	</div>
+	<div id="ThumbnailDiv">
+		<img src="/Stuff/images/tn-1.jpg" class="TnImage"/>	
+		<img src="/Stuff/images/tn-2.jpg" class="TnImage"/>
+	</div>
+ </div>
+ <div id="index_content">
+  <div id="notices">
+   <ul>
+    <li id="tab_news"  onmouseover="showPic('news', 'gg');">最新新闻</li>
+    <li id="tab_notices" onmouseover="showPic('gg', 'news');">公告</li>
+    <li id="tab_more"><a href="/index.php/News"><img src="{{php}}echo IMG_DIR{{/php}}/more.gif" alt="more" /></a></li>
+   </ul>
+   <div id="news">
+    <ol class="ct">
+    {{section name=loop loop=$news}}
+     <li><span>{{$news[loop].created|date_format:"%Y.%m.%d"}}</span><a href="/index.php/News/Desc/id/{{$news[loop].newsid}}">{{$news[loop].title|strip_tags|cntruncate:30:"...":true}}</a></li>
+    {{/section}}
+    </ol>
+   </div>
+   <div id="gg" class="hide_list">
+    <ol class="ct">
+    {{section name=loop loop=$notices}}
+     <li><span>{{$notices[loop].created|date_format:"%Y.%m.%d"}}</span><a href="/index.php/News/Desc/id/{{$notices[loop].newsid}}">{{$notices[loop].title|strip_tags|cntruncate:30:"...":true}}</a></li>
+    {{/section}}
+    </ol>
+   </div> 
+  </div>
+  <div id="products">
+   <span><a style="cursor:pointer;" onmouseover="showPic('p1','p2');"><img src="{{php}}echo IMG_DIR{{/php}}/product_arrow_lt.jpg" alt="" /></a>
+   <a style="cursor:pointer;"  onmouseover="showPic('p2','p1');"><img src="{{php}}echo IMG_DIR{{/php}}/product_arrow_rt.jpg" alt="" /></a></span>
+   <h2><a href="/index.php/Products" >主导产品</a></h2>
+   <div id="p1" class="show_list"><dl class="products_desc""><dt style="line-height:20px; text-align:center;">{{$goods[0].name}}</dt><dd>{{$goods[0].summary}}</dd><dd style="text-align:right;"><a href="/index.php/Products/Desc/id/{{$goods[0].goodsid}}">详情</a></dd></dl><img src="{{php}}echo GOODS_DIR{{/php}}/{{$goods[0].image}}" alt="{{$goods[0].name}}"/></div>
+   <div id="p2" class="hide_list"><dl class="products_desc"><dt style="line-height:20px; text-align:center;">{{$goods[1].name}}</dt><dd>{{$goods[1].summary}}</dd><dd style="text-align:right;"><a href="/index.php/Products/Desc/id/{{$goods[1].goodsid}}">详情</a></dd></dl><img src="{{php}}echo GOODS_DIR{{/php}}/{{$goods[1].image}}" alt="{{$goods[1].name}}"/></div>   
+  </div>
+  <div id="contact">
+   <h2><a href="/index.php/Contactus" >联系我们</a></h2>
+   <div class="contact_ct">
+   </div>
+  </div>
+ </div>
+ <div style="clear:both"></div>
+{{include file="tpl-footer.html"}}
+</div>
+</div>
+</body>
+</html>
