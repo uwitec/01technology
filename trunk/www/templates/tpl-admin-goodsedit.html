@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>后台管理界面</title>
+<link href="{{php}}echo CSS_DIR{{/php}}/admin.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+</style>
+<script src="{{php}}echo JS_DIR{{/php}}/jquery.js" type="text/javascript"></script>
+<script src="{{php}}echo JS_DIR{{/php}}/documentation.js" type="text/javascript"></script>
+<link href="{{php}}echo JS_DIR{{/php}}/documentation.css" type="text/css" rel="stylesheet" />
+<!--// code-highlighting //-->
+<script type="text/javaScript" src="/jquery/project/chili/jquery.chili-2.0.js"></script> 
+<script type="text/javaScript" src="/jquery/project/chili-toolbar/jquery.chili-toolbar.pack.js"></script> 
+<script type="text/javascript">try{ChiliBook.recipeFolder="/jquery/project/chili/"}catch(e){}</script>
+<!--// plugin-specific resources //-->
+<script src="{{php}}echo JS_DIR{{/php}}/jquery.form.js" type="text/javascript" language="javascript"></script>
+<script src="{{php}}echo JS_DIR{{/php}}/jquery.MetaData.js" type="text/javascript" language="javascript"></script>
+<script src="{{php}}echo JS_DIR{{/php}}/jquery.MultiFile.js" type="text/javascript" language="javascript"></script>
+<script src="{{php}}echo JS_DIR{{/php}}/jquery.blockUI.js" type="text/javascript" language="javascript"></script>
+<script type="text/javascript" src="{{php}}echo FCK_DIR{{/php}}/fckeditor.js"></script>
+<script type="text/javascript">
+window.onload = function()
+{
+	// Automatically calculates the editor base path based on the _samples directory.
+	// This is usefull only for these samples. A real application should use something like this:
+	// oFCKeditor.BasePath = '/fckeditor/' ;	// '/fckeditor/' is the default value.
+	var sBasePath = '{{php}}echo FCK_DIR{{/php}}/' ;
+
+	var oFCKeditor = new FCKeditor( 'detail' ) ;
+	oFCKeditor.BasePath	= sBasePath ;
+	oFCKeditor.Height	= 380 ;
+//	oFCKeditor.Config['ToolbarStartExpanded'] = false ;
+	oFCKeditor.ToolbarSet	= 'MyToolbar' ;
+	oFCKeditor.ReplaceTextarea() ;
+}
+</script>
+</head>
+<body>
+<div id="body"> {{include file='tpl-admin-header.html'}}
+  <div id="content" style="height:100%;"> {{include file='tpl-admin-menu.html'}}
+    <div id="ct_rt"  style="height:100%;">
+    <form action="/index.php/Admin/goodseditdo" method="post" enctype="multipart/form-data" >
+      <table class="table_list">
+        <thead>
+        <tr><td></td><td></td></tr>
+       </thead>
+        <tbody>
+          <tr>
+            <td>名称</td>
+            <td><input class="tb350" type="text" name="name" value="{{$goods.name}}" /></td>
+          </tr>
+          <tr>
+            <td>简述</td>
+            <td><textarea class="tb350 hg100" name="summary">{{$goods.summary}}</textarea></td>
+          </tr>          
+          <tr>
+            <td>详细信息</td>
+            <td><textarea name="detail">{{$goods.detail}}</textarea></td>
+          </tr>
+          <tr>
+            <td>类别</td>
+            <td align="left">{{$html_select}}</td>
+          </tr>
+          <tr>
+            <td>图片</td>
+            <td align="left"><img src="{{php}}echo GOODS_DIR{{/php}}/{{$goods.image}}" alt="{{$goods.name}}">
+            <input type="file" name="image[]" class="multi" accept="gif|jpg" maxlength="1" /></td>
+          </tr>
+          <tr>
+            <td><input type="hidden" name="goodsid" value="{{$goods.goodsid}}" /></td>
+            <td align="left"><input type="submit" class="btn" value="提交" /></td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+    </div>
+  </div>
+  <div style="clear:both;"></div>
+  {{include file='tpl-admin-footer.html'}} </div>
+</body>
+</html>

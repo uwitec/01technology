@@ -1,0 +1,32 @@
+{{include file="tpl-header.html"}} 
+<body>
+<div id="body">
+ {{include file="tpl-menu.html"}}
+ <div id="banner" style=" background:#fff url('{{php}}echo IMG_DIR{{/php}}/banner_fb.jpg') no-repeat;"></div>
+ <div id="content">
+  <div id="ct_lt">
+	{{include file="tpl-menu-tree.html"}} 
+  </div>
+  <div id="ct_rt">
+   <div><h2 class="title">信息反馈</h2><h3 class="e_title">feedback</h3></div>
+   <div class="nav"><a href="/">首页</a> &gt; 信息反馈</div>
+   <div class="sm_title"></div>   
+   <div class="content">
+   <form action="/index.php/Feedback/Post" method="post">
+    <ul>
+     <li><label>主题名称 </label><input name="title" type="text" class="text" /></li>    
+     <li><label style="line-height:150px; vertical-align:top;">反馈内容 </label><textarea name="content" class="textarea"></textarea></li>
+     <li><label>客户名称 </label><input name="user" type="text" class="text" /></li>
+     <li><label>联系电话 </label><input name="tel" type="text" class="text" /></li>
+     <li><label>电子邮箱 </label><input name="email" type="text" class="text" /></li>
+     <li style="text-align:right;"><input name="" type="submit" value="提交"  class="button"/> <input name="" type="reset" value="重填" class="button"/></li>      
+    </ul>
+    </form>    
+   </div>
+  </div>
+ </div>
+ <div style="clear:both"></div>
+{{include file="tpl-footer.html"}}
+</div>
+</body>
+</html>
