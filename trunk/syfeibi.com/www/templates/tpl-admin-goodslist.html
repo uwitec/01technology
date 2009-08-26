@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>后台管理界面</title>
+<link href="{{php}}echo CSS_DIR{{/php}}/admin.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+</style>
+</head>
+<body>
+<div id="body"> {{include file='tpl-admin-header.html'}}
+  <div id="content"> {{include file='tpl-admin-menu.html'}}
+    <div id="ct_rt">
+	  <table class="table_list">
+	  <thead>
+	    <tr>
+	      <!--<td>&nbsp;</td>-->
+	      <td class="tb50">序号</td>
+	      <td class="tb150">名称</td>
+	      <td class="tb150">图片</td>
+	      <td class="tb100">类别</td>
+	      {{*<td>详细信息</td>*}}
+	      <td class="tb100">创建时间</td>
+	      {{*<td>更新时间</td>*}}
+	      <td class="tb50">浏览数</td>
+	      <td class="tb100">操作</td>
+	    </tr>
+	    </thead>
+	    <tbody>
+	    {{section name=loop loop=$goods}}
+	    <tr>
+	      <!--<td><input type="checkbox" name="checkbox" value="goodsid[{{$goods[loop].goodsid}}]"></td>-->
+	      <td>{{$goods[loop].goodsid}}</td>
+	      <td>{{$goods[loop].name|strip_tags|cntruncate:10:"...":true}}</td>
+	      <td><img src="{{php}}echo GOODS_DIR{{/php}}/{{$goods[loop].image}}" alt="{{$goods[loop].name}}" border="0" style="border:5px white 5px 5px 5px" width="100px" height="100px" /></td>
+	      <td>{{$goods[loop].category.title}}</td>
+	      {{* <td>{{$goods[loop].detail|strip_tags|cntruncate:30:"...":true}}</td> *}}
+	      <td>{{$goods[loop].created}}</td>
+	      {{*<td>{{$goods[loop].updated}}</td>*}}
+	      <td>{{$goods[loop].viewed}}</td>
+	      <td><a href="/index.php/Admin/Goodsdel/id/{{$goods[loop].goodsid}}">删除</a> <a href="/index.php/Admin/Goodsedit/id/{{$goods[loop].goodsid}}">编辑</a></td>
+	    </tr>
+	    {{/section}}
+	    </tbody>
+	  </table>
+	  <div align="left" style="width:95%">
+	  <input type="button" class="btn" value="添加产品" onclick="javascript:window.location.href='/index.php/Admin/Goodsedit'" />
+	  {{include file='tpl-page.html'}}</div>	  
+    </div>
+  </div>
+  {{include file='tpl-admin-footer.html'}} </div>
+</body>
+</html>

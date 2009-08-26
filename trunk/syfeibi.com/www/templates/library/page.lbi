@@ -1,0 +1,12 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <ul id="page">
+   <li class="arrow_l"><a href="{{url controller=$url.ctl action=$url.act page=$goodsPager.firstPageNumber}}" title='首页'></a></li>
+   {{section name=page loop=$Navbar}}
+    {{if $Navbar[page].index == $Pager.currentPage}}
+   <li><label>[{{$Navbar[page].number}}]</label></li><li class="page_point">.</li>
+  {{else}}
+   <li><a href="{{url controller=$url.ctl action=$url.act page=$Navbar[page].index}}"> {{$Navbar[page].number}}</a></li><li class="page_point">.</li>
+  {{/if}}
+   {{/section}}   
+   <li class="arrow_r"><a href="{{url controller=$url.ctl action=$url.act page=$goodsPager.lastPageNumber}}" title='末页'></a></li>
+  </ul>

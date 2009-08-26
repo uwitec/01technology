@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+{{include file="library/meta.lbi"}}
+{{include file="library/style.lbi"}}
+</head>
+
+<body>
+<div id="body">
+{{include file="library/header.lbi"}}
+  <div class="bg">
+  <div style="width:1px;height:40px; background-color:#A9A8A6; position:absolute; left: 41px; top: 38px;"></div>
+  <h2>联系我们</h2>
+  <h3>CONTACT US</h3>
+  <div class="show_img">
+   <span class="arrow_title">菲比新娘地理位置</span>
+   <img src="../Stuff/images/map.jpg" alt="菲比地图" style="margin-top:20px;" />
+  </div>
+  <div class="show_list">
+   <span class="arrow_title">公司地址</span>
+   <p>说明</p>
+   <span class="arrow_title">公交线路</span>
+   <p></p>
+  </div>
+  <div class="split_lint"></div>
+  {{include file="library/footer.lbi"}}
+  </div> 
+ {{include file="library/contactus.lbi"}}
+ </div>
+</div>
+<div class="nav_bg">
+ <div id="navigation">
+  <div id="menu">
+  {{include file="library/menu.lbi"}}
+  </div>
+  <div class="heard"></div>
+  <div class="nav_pic nav_contactus"></div>
+  <div class="left_line other_left_line"></div>
+  <div id="left_contact"></div>
+ </div>
+</div>
+
+</body>
+
+</html>

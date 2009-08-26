@@ -1,0 +1,9 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset={{$metas.charset}}" />
+<meta name="robots" content="{{$metas.robots}}" />
+<meta name="author" content="{{$metas.author}}" />
+<meta name="Copyright" content="{{$metas.copyright}}" />
+<meta content="IE=EmulateIE7" http-equiv="X-UA-Compatible"/>
+<meta name="Description" content="{{$metas.description}}" />
+<meta name="Keywords" content="{{$metas.keywords}}" />
+<title>{{$metas.title}}</title>

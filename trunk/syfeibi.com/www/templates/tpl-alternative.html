@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Smarty</title>
+</head>
+<body>
+<div id="content">
+<strong>另一种使用 Smarty 的方式：</strong>
+<br />
+优点：使用最简单，而且如果更换模版引擎，对控制器代码的修改量也最小。<br />
+缺点：不够灵活，无法使用模版引擎的增强功能。<br />
+<pre>
+<code>
+function actionAlternative() {
+    $viewData = array(
+        'my_var' =&gt; 'The smarty template engine.',
+    );
+    $this-&gt;_executeView('tpl-alternative.html', $viewData);
+}
+</code>
+</pre>
+  <strong>Smarty 变量 $my_var 的值：</strong> {{ $my_var }} <br />
+  <br />
+  [<a href="{{ url }}">点击返回首页</a>]
+  </div>
+</body>
+</html>
