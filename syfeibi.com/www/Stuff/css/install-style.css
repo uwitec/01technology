@@ -1,0 +1,50 @@
+ul.step {
+	padding: 0px;
+	margin: 0px; 
+	color: #000000; 
+	list-style: none;
+}
+
+ul.step li {
+	padding: 6px 0px 6px 0px;
+	line-height: 120%;
+	margin: 0px;
+	list-style: none;
+}
+
+li.step-current {
+	font-weight: bold; 
+	font-size: 18px;
+	vertical-align: middle; 
+}
+
+.ok {
+	font-weight: bold; 
+	color: #008000
+}
+
+.error {
+	font-weight: bold; 
+	color: #ff0000
+}
+
+.not-recommend {
+	font-weight: bold; 
+	color: #666666
+}
+
+.white {
+	color: #ffffff;
+}
+
+form {
+	padding: 0px;
+	margin: 0px;
+}
+
+h3.none {
+	background-image: none;
+	margin: 0px;
+	padding: 0px;
+	line-height: 110%;
+}
