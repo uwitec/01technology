@@ -30,7 +30,7 @@ img{border:none;}
 #heard{ width:181px; height:172px; top:160px; right:50px; position:absolute; z-index:3; background:url(../images/heard.png) no-repeat 0 0;}
 #navigation div{ float:left; color:#b2b2b2;}
 #menu{ width:385px; background:black url('../images/index_menu.jpg') no-repeat scroll right; height:200px;}
-#menu ul{ margin-top:25px; width:164px; float:left;}
+#menu ul{ margin-top:10px; width:164px; float:left;}
 #menu ul li{ margin-bottom: 15px; font-size:15px; font-weight:bolder; color:#676461;}
 #menu ul li a{ color:#676461;}
 #child_menu { display:none; float:left;width:150px; height:150px; padding-top:2px;}
